@@ -9,13 +9,23 @@
   h1 { text-align: center; margin: 0 0 12px; }
   .sub { text-align: center; color: #6b7280; margin-bottom: 20px; }
   .wrap { max-width: 900px; margin: 0 auto; }
-  .flashcard {
-    min-height: 220px; background: white; border-radius: 14px;
-    box-shadow: 0 8px 20px rgba(0,0,0,.08); padding: 24px;
-    display: flex; align-items: center; justify-content: center; text-align: center;
-    cursor: pointer; transition: transform .15s ease, box-shadow .15s ease;
-    white-space: pre-line;
-  }
+.flashcard {
+  min-height: 240px;
+  background: white;
+  border-radius: 14px;
+  box-shadow: 0 8px 20px rgba(0,0,0,.08);
+  padding: 24px;
+
+  display: flex;
+  flex-direction: column;   /* 👈 force vertical stacking */
+  justify-content: center; /* center vertically */
+  align-items: center;     /* center horizontally */
+  text-align: center;
+
+  cursor: pointer;
+  transition: transform .15s ease, box-shadow .15s ease;
+  line-height: 1.6;        /* more breathing room */
+}
   .flashcard:hover { transform: translateY(-2px); box-shadow: 0 12px 24px rgba(0,0,0,.12); }
   .controls { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin: 16px 0; }
   button { padding: 10px 14px; border: none; border-radius: 10px; background: #2563eb; color: white; font-weight: 600; cursor: pointer; }
