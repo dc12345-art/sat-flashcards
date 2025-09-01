@@ -57,8 +57,2609 @@
   </div>
 
 <script>
-  const allCards = [{"word": "Buttress", "meaning": "Support or strengthen", "example": "The evidence buttressed her claim."}, {"word": "Undermine", "meaning": "Weaken or damage", "example": "The scandal undermined public trust."}, {"word": "Bolster", "meaning": "Strengthen or support", "example": "The teacher\u2019s praise bolstered his confidence."}, {"word": "Refute", "meaning": "Prove false", "example": "The scientist refuted the outdated theory."}, {"word": "Corroborate", "meaning": "Confirm with evidence", "example": "The witness corroborated the suspect\u2019s alibi."}, {"word": "Rebut", "meaning": "Contradict with evidence", "example": "The lawyer rebutted the opposing argument."}, {"word": "Invalidate", "meaning": "Prove to be false", "example": "New data invalidated the old hypothesis."}, {"word": "Discredit", "meaning": "Harm reputation or credibility", "example": "The article discredited the politician."}, {"word": "Debunk", "meaning": "Expose falseness", "example": "The researcher debunked the myth."}, {"word": "Substantiate", "meaning": "Provide evidence for", "example": "The study substantiated the claim."}, {"word": "Mitigate", "meaning": "Make less severe", "example": "Laws were passed to mitigate pollution."}, {"word": "Exacerbate", "meaning": "Make worse", "example": "His rude comments exacerbated the problem."}, {"word": "Ameliorate", "meaning": "Improve", "example": "The reforms ameliorated working conditions."}, {"word": "Qualify", "meaning": "Limit or modify", "example": "She qualified her statement with caution."}, {"word": "Underscore", "meaning": "Emphasize", "example": "The speech underscored the need for reform."}, {"word": "Elucidate", "meaning": "Make clear", "example": "The professor elucidated the complex idea."}, {"word": "Expound", "meaning": "Explain in detail", "example": "He expounded his views on education."}, {"word": "Clarify", "meaning": "Make clear or easier to understand", "example": "She clarified her instructions."}, {"word": "Specify", "meaning": "State precisely", "example": "The contract specified the payment terms."}, {"word": "Delineate", "meaning": "Describe in detail", "example": "The map delineated the borders."}, {"word": "Judicious", "meaning": "Showing good judgment", "example": "He made a judicious investment."}, {"word": "Tentative", "meaning": "Uncertain or provisional", "example": "The plan is tentative and may change."}, {"word": "Ambivalent", "meaning": "Mixed feelings", "example": "He felt ambivalent about leaving."}, {"word": "Indifferent", "meaning": "Not caring", "example": "She was indifferent to the criticism."}, {"word": "Resolute", "meaning": "Determined", "example": "He remained resolute despite challenges."}, {"word": "Adamant", "meaning": "Unyielding", "example": "She was adamant about her decision."}, {"word": "Intransigent", "meaning": "Unwilling to change", "example": "The negotiators were intransigent."}, {"word": "Conscientious", "meaning": "Careful and diligent", "example": "He is a conscientious worker."}, {"word": "Scrupulous", "meaning": "Very careful; ethical", "example": "She is scrupulous about accuracy."}, {"word": "Fastidious", "meaning": "Hard to please; meticulous", "example": "He was fastidious about cleanliness."}, {"word": "Engender", "meaning": "Cause or give rise to", "example": "The policy engendered debate."}, {"word": "Catalyze", "meaning": "Cause or accelerate", "example": "The speech catalyzed a movement."}, {"word": "Hamper", "meaning": "Hinder or obstruct", "example": "Heavy rain hampered the rescue."}, {"word": "Foster", "meaning": "Encourage or promote", "example": "Teachers foster creativity."}, {"word": "Hinder", "meaning": "Make difficult", "example": "Fatigue hindered progress."}, {"word": "Impede", "meaning": "Block or delay", "example": "Traffic impeded their arrival."}, {"word": "Inhibit", "meaning": "Hold back", "example": "Shyness inhibited his speech."}, {"word": "Facilitate", "meaning": "Make easier", "example": "The app facilitates learning."}, {"word": "Prompt", "meaning": "Cause to act", "example": "The news prompted protests."}, {"word": "Provoke", "meaning": "Stir up emotions", "example": "The remark provoked laughter."}, {"word": "Cursory", "meaning": "Quick, superficial", "example": "He made a cursory inspection."}, {"word": "Meticulous", "meaning": "Very careful", "example": "She kept meticulous records."}, {"word": "Conspicuous", "meaning": "Easily seen", "example": "The red dress was conspicuous."}, {"word": "Subtle", "meaning": "Not obvious", "example": "The perfume had a subtle scent."}, {"word": "Inherent", "meaning": "Existing naturally", "example": "Risk is inherent in the sport."}, {"word": "Intrinsic", "meaning": "Essential, belonging naturally", "example": "Freedom is intrinsic to democracy."}, {"word": "Overt", "meaning": "Open and obvious", "example": "He showed overt hostility."}, {"word": "Covert", "meaning": "Hidden or secret", "example": "The spy carried out a covert mission."}, {"word": "Salient", "meaning": "Most noticeable", "example": "The report highlighted salient issues."}, {"word": "Pervasive", "meaning": "Spreading widely", "example": "Technology is pervasive in society."}, {"word": "Concede", "meaning": "Admit reluctantly", "example": "He conceded that he was wrong."}, {"word": "Contend", "meaning": "Argue strongly", "example": "She contended that her view was correct."}, {"word": "Assert", "meaning": "State confidently", "example": "The activist asserted her rights."}, {"word": "Allude", "meaning": "Refer indirectly", "example": "He alluded to the problem in his speech."}, {"word": "Imply", "meaning": "Suggest without stating", "example": "Her silence implied agreement."}, {"word": "Infer", "meaning": "Conclude from evidence", "example": "We can infer the meaning from context."}, {"word": "Allege", "meaning": "Claim without proof", "example": "The report alleged misconduct."}, {"word": "Acknowledge", "meaning": "Recognize or admit", "example": "He acknowledged his mistakes."}, {"word": "Maintain", "meaning": "Continue or assert", "example": "She maintained her innocence."}, {"word": "Reiterate", "meaning": "Say again", "example": "He reiterated his request."}, {"word": "Precede", "meaning": "Come before", "example": "The ceremony preceded the banquet."}, {"word": "Supersede", "meaning": "Replace", "example": "New laws supersede old ones."}, {"word": "Coincide", "meaning": "Happen at the same time", "example": "The holidays coincided this year."}, {"word": "Emerge", "meaning": "Come out", "example": "A leader emerged from the crowd."}, {"word": "Recur", "meaning": "Happen again", "example": "The issue recurred several times."}, {"word": "Commence", "meaning": "Begin", "example": "The play will commence soon."}, {"word": "Cease", "meaning": "Stop", "example": "Hostilities ceased after the treaty."}, {"word": "Resume", "meaning": "Continue after pause", "example": "Work resumed after lunch."}, {"word": "Conclude", "meaning": "Finish", "example": "The meeting concluded at noon."}, {"word": "Prolong", "meaning": "Make longer", "example": "They prolonged the discussion."}, {"word": "Pragmatic", "meaning": "Practical", "example": "She took a pragmatic approach."}, {"word": "Idealistic", "meaning": "Guided by ideals", "example": "He was too idealistic to compromise."}, {"word": "Apathetic", "meaning": "Lacking interest", "example": "The voters were apathetic."}, {"word": "Zealous", "meaning": "Passionate, eager", "example": "The campaigner was zealous in her work."}, {"word": "Impartial", "meaning": "Neutral, unbiased", "example": "The judge was impartial."}, {"word": "Biased", "meaning": "Unfairly prejudiced", "example": "The article was biased."}, {"word": "Cynical", "meaning": "Distrustful, skeptical", "example": "He was cynical about politics."}, {"word": "Optimistic", "meaning": "Hopeful", "example": "She was optimistic about the future."}, {"word": "Pessimistic", "meaning": "Expecting the worst", "example": "He was pessimistic about the results."}, {"word": "Detached", "meaning": "Emotionally uninvolved", "example": "The doctor remained detached."}, {"word": "Aloof", "meaning": "Emotionally distant", "example": "He stayed aloof during the discussion."}, {"word": "Ardent", "meaning": "Very enthusiastic", "example": "She was an ardent supporter of the cause."}, {"word": "Earnest", "meaning": "Sincere and serious", "example": "He made an earnest request."}, {"word": "Skeptical", "meaning": "Doubtful", "example": "She was skeptical of the new plan."}, {"word": "Apprehensive", "meaning": "Anxious or fearful", "example": "He felt apprehensive about the exam."}, {"word": "Complacent", "meaning": "Self-satisfied", "example": "The team grew complacent after winning."}, {"word": "Dismayed", "meaning": "Upset, distressed", "example": "They were dismayed by the results."}, {"word": "Exuberant", "meaning": "Joyful, enthusiastic", "example": "The children were exuberant at the party."}, {"word": "Resigned", "meaning": "Accepting reluctantly", "example": "She was resigned to the outcome."}, {"word": "Wary", "meaning": "Cautious", "example": "He was wary of strangers."}, {"word": "Abstract", "meaning": "Theoretical, not concrete", "example": "He explained the abstract concept."}, {"word": "Concrete", "meaning": "Tangible, real", "example": "The evidence was concrete and convincing."}, {"word": "Generalize", "meaning": "Make broad conclusions", "example": "He generalized from one example."}, {"word": "Hypothesize", "meaning": "Propose an explanation", "example": "She hypothesized that sleep aids memory."}, {"word": "Theorize", "meaning": "Form a theory", "example": "Scientists theorize about dark matter."}, {"word": "Speculate", "meaning": "Guess without full info", "example": "They speculated about the reasons."}, {"word": "Evaluate", "meaning": "Assess", "example": "The teacher evaluated the essay."}, {"word": "Analyze", "meaning": "Examine closely", "example": "She analyzed the data carefully."}, {"word": "Synthesize", "meaning": "Combine into whole", "example": "The essay synthesized several studies."}, {"word": "Interpret", "meaning": "Explain meaning", "example": "He interpreted the poem differently."}, {"word": "Inevitable", "meaning": "Certain to happen", "example": "Change is inevitable."}, {"word": "Mundane", "meaning": "Ordinary, dull", "example": "He avoided mundane chores."}, {"word": "Novel", "meaning": "New, original", "example": "The engineer proposed a novel solution."}, {"word": "Conventional", "meaning": "Traditional", "example": "They followed conventional methods."}, {"word": "Innovative", "meaning": "Creative, new", "example": "She developed an innovative design."}, {"word": "Radical", "meaning": "Extreme or revolutionary", "example": "The group supported radical change."}, {"word": "Superficial", "meaning": "Shallow, not deep", "example": "His analysis was superficial."}, {"word": "Profound", "meaning": "Deep, significant", "example": "The book made a profound impact."}, {"word": "Ambiguous", "meaning": "Unclear, multiple meanings", "example": "The question was ambiguous."}, {"word": "Lucid", "meaning": "Clear, easy to understand", "example": "Her explanation was lucid."}, {"word": "Viable", "meaning": "Capable of working successfully", "example": "The plan is economically viable."}, {"word": "Feasible", "meaning": "Possible, practical", "example": "The project seems feasible."}, {"word": "Tentative", "meaning": "Uncertain, temporary", "example": "They reached a tentative agreement."}, {"word": "Robust", "meaning": "Strong, durable", "example": "The system is robust and reliable."}, {"word": "Vulnerable", "meaning": "Open to harm", "example": "The child is vulnerable to illness."}, {"word": "Susceptible", "meaning": "Easily affected", "example": "She is susceptible to colds."}, {"word": "Resilient", "meaning": "Able to recover quickly", "example": "The economy is resilient after crises."}, {"word": "Endure", "meaning": "Continue despite hardship", "example": "They endured years of struggle."}, {"word": "Sustain", "meaning": "Maintain over time", "example": "The farm sustains the village."}, {"word": "Persevere", "meaning": "Continue despite difficulty", "example": "He persevered through challenges."}, {"word": "Sovereign", "meaning": "Independent authority", "example": "The nation remained sovereign."}, {"word": "Legitimate", "meaning": "Lawful, valid", "example": "They questioned the legitimate ruler."}, {"word": "Tyranny", "meaning": "Cruel government", "example": "The people rebelled against tyranny."}, {"word": "Rebellion", "meaning": "Act of resistance", "example": "The rebellion spread quickly."}, {"word": "Revolution", "meaning": "Overthrow or dramatic change", "example": "The revolution changed history."}, {"word": "Diplomatic", "meaning": "Relating to foreign relations", "example": "He had a diplomatic mission."}, {"word": "Treaty", "meaning": "Formal agreement", "example": "The treaty ended the war."}, {"word": "Alliance", "meaning": "Union for mutual benefit", "example": "The two countries formed an alliance."}, {"word": "Amend", "meaning": "Change a law or document", "example": "They amended the constitution."}, {"word": "Ratify", "meaning": "Approve formally", "example": "The treaty was ratified by Congress."}, {"word": "Paradigm", "meaning": "Model or example", "example": "This theory created a new paradigm."}, {"word": "Doctrine", "meaning": "Set of beliefs", "example": "The church spread its doctrine."}, {"word": "Tenet", "meaning": "Principle or belief", "example": "Freedom is a core tenet of democracy."}, {"word": "Dogma", "meaning": "Strict belief system", "example": "They rejected old dogmas."}, {"word": "Orthodox", "meaning": "Traditional, conventional", "example": "He followed orthodox practices."}, {"word": "Heresy", "meaning": "Belief against tradition", "example": "Her views were considered heresy."}, {"word": "Altruistic", "meaning": "Selfless concern for others", "example": "Her altruistic actions helped many."}, {"word": "Egoistic", "meaning": "Self-centered", "example": "He had an egoistic approach."}, {"word": "Benevolent", "meaning": "Kind, charitable", "example": "The foundation was benevolent."}, {"word": "Malevolent", "meaning": "Evil, harmful", "example": "The villain had malevolent intentions."}, {"word": "Abstract", "meaning": "Not concrete; theoretical", "example": "The essay dealt with abstract ideas."}, {"word": "Adverse", "meaning": "Harmful, unfavorable", "example": "The drug had adverse side effects."}, {"word": "Advocate", "meaning": "Support or recommend", "example": "She advocates for women's rights."}, {"word": "Allocate", "meaning": "Distribute for a purpose", "example": "Funds were allocated to research."}, {"word": "Arbitrary", "meaning": "Random or based on whim", "example": "The decision seemed arbitrary."}, {"word": "Authentic", "meaning": "Genuine, real", "example": "The signature was authentic."}, {"word": "Bias", "meaning": "Prejudice for or against", "example": "The study showed bias."}, {"word": "Capricious", "meaning": "Unpredictable", "example": "The weather is capricious."}, {"word": "Coherent", "meaning": "Logical and consistent", "example": "Her essay was coherent."}, {"word": "Colloquial", "meaning": "Informal language", "example": "He used colloquial expressions."}, {"word": "Consensus", "meaning": "General agreement", "example": "The group reached consensus."}, {"word": "Constituent", "meaning": "Part of a whole", "example": "Oxygen is a constituent of air."}, {"word": "Criteria", "meaning": "Standards of judgment", "example": "The criteria for success are clear."}, {"word": "Deficit", "meaning": "Shortfall", "example": "The country faced a budget deficit."}, {"word": "Derive", "meaning": "Obtain from a source", "example": "The word derives from Latin."}, {"word": "Deviate", "meaning": "Depart from norm", "example": "He deviated from the plan."}, {"word": "Diminish", "meaning": "Make smaller", "example": "The pain diminished over time."}, {"word": "Discrepancy", "meaning": "Difference, inconsistency", "example": "There was a discrepancy in the report."}, {"word": "Disseminate", "meaning": "Spread widely", "example": "The news was disseminated quickly."}, {"word": "Distort", "meaning": "Twist out of shape or meaning", "example": "The mirror distorted the image."}, {"word": "Eccentric", "meaning": "Unconventional, odd", "example": "The professor was eccentric but brilliant."}, {"word": "Empirical", "meaning": "Based on observation", "example": "The theory lacks empirical evidence."}, {"word": "Endorse", "meaning": "Support or approve", "example": "The senator endorsed the bill."}, {"word": "Erratic", "meaning": "Unpredictable", "example": "Her behavior was erratic."}, {"word": "Euphemism", "meaning": "Polite word for harsh idea", "example": "He used 'passed away' as a euphemism."}, {"word": "Explicit", "meaning": "Clearly stated", "example": "The rules were explicit."}, {"word": "Feasible", "meaning": "Possible", "example": "The project is feasible with funding."}, {"word": "Frivolous", "meaning": "Not serious", "example": "The lawsuit was frivolous."}, {"word": "Hostile", "meaning": "Unfriendly, aggressive", "example": "The crowd turned hostile."}, {"word": "Imperative", "meaning": "Absolutely necessary", "example": "It is imperative to act now."}, {"word": "Impose", "meaning": "Force something", "example": "The law imposed restrictions."}, {"word": "Incentive", "meaning": "Motivation to act", "example": "The bonus was an incentive."}, {"word": "Indigenous", "meaning": "Native to an area", "example": "The plant is indigenous to Brazil."}, {"word": "Inevitable", "meaning": "Certain to happen", "example": "Death is inevitable."}, {"word": "Inferior", "meaning": "Lower in quality", "example": "The product was inferior to others."}, {"word": "Innovate", "meaning": "Introduce new ideas", "example": "The company must innovate to survive."}, {"word": "Intervene", "meaning": "Get involved", "example": "The teacher intervened in the fight."}, {"word": "Legislate", "meaning": "Make laws", "example": "The government legislated new reforms."}, {"word": "Lucrative", "meaning": "Profitable", "example": "It was a lucrative business."}, {"word": "Marginal", "meaning": "Small, insignificant", "example": "He made only a marginal improvement."}, {"word": "Mediocre", "meaning": "Average, ordinary", "example": "The film was mediocre at best."}, {"word": "Negligible", "meaning": "So small it's unimportant", "example": "The cost was negligible."}, {"word": "Notorious", "meaning": "Famous for something bad", "example": "The area is notorious for crime."}, {"word": "Obsolete", "meaning": "Outdated", "example": "That technology is obsolete."}, {"word": "Omnipresent", "meaning": "Everywhere", "example": "The CEO\u2019s influence was omnipresent."}, {"word": "Opaque", "meaning": "Not transparent; unclear", "example": "The instructions were opaque."}, {"word": "Partisan", "meaning": "Strong supporter; biased", "example": "The debate turned partisan."}, {"word": "Pertinent", "meaning": "Relevant", "example": "She asked pertinent questions."}, {"word": "Plausible", "meaning": "Believable", "example": "It is a plausible explanation."}, {"word": "Precarious", "meaning": "Unstable, risky", "example": "They lived in precarious conditions."}, {"word": "Preclude", "meaning": "Prevent", "example": "His injury precluded him from playing."}, {"word": "Prolific", "meaning": "Productive", "example": "She was a prolific writer."}, {"word": "Prudent", "meaning": "Wise, cautious", "example": "He made a prudent investment."}, {"word": "Reconcile", "meaning": "Restore harmony", "example": "They reconciled after years of conflict."}, {"word": "Redundant", "meaning": "Unnecessary repetition", "example": "The report was redundant."}, {"word": "Reluctant", "meaning": "Unwilling", "example": "She was reluctant to speak."}, {"word": "Scrutiny", "meaning": "Close examination", "example": "The deal was under scrutiny."}, {"word": "Secular", "meaning": "Non-religious", "example": "The state is secular."}, {"word": "Substantive", "meaning": "Significant", "example": "They had a substantive discussion."}, {"word": "Viable", "meaning": "Workable, capable", "example": "The plan is viable with support."}, {"word": "Vivid", "meaning": "Bright, clear", "example": "The painting had vivid colors."}, {"word": "Warrant", "meaning": "Justify", "example": "The evidence warrants further study."}, {"word": "Zeal", "meaning": "Passion, enthusiasm", "example": "She worked with great zeal."}, {"word": "Affluent", "meaning": "Wealthy", "example": "They lived in an affluent neighborhood."}, {"word": "Alleviate", "meaning": "Relieve, lessen", "example": "Medicine alleviated the pain."}, {"word": "Ambiguous", "meaning": "Unclear meaning", "example": "The message was ambiguous."}, {"word": "Amiable", "meaning": "Friendly", "example": "She had an amiable personality."}, {"word": "Anomaly", "meaning": "Something unusual", "example": "The test results showed an anomaly."}, {"word": "Anticipate", "meaning": "Expect", "example": "We anticipate heavy traffic."}, {"word": "Arduous", "meaning": "Difficult", "example": "Climbing the mountain was arduous."}, {"word": "Audacious", "meaning": "Bold, daring", "example": "She made an audacious move."}, {"word": "Belligerent", "meaning": "Hostile, aggressive", "example": "The belligerent nations went to war."}, {"word": "Benevolent", "meaning": "Kind, charitable", "example": "The charity was benevolent."}, {"word": "Booming", "meaning": "Growing quickly", "example": "The city had a booming economy."}, {"word": "Brisk", "meaning": "Quick, lively", "example": "She took a brisk walk."}, {"word": "Candid", "meaning": "Honest, direct", "example": "He gave a candid response."}, {"word": "Chronic", "meaning": "Long-lasting", "example": "He suffers from chronic pain."}, {"word": "Coerce", "meaning": "Force someone", "example": "They coerced him into signing."}, {"word": "Colossal", "meaning": "Huge", "example": "The building was colossal."}, {"word": "Competent", "meaning": "Capable", "example": "She is competent in her job."}, {"word": "Comprehensive", "meaning": "Complete, covering all", "example": "The report was comprehensive."}, {"word": "Concise", "meaning": "Brief and clear", "example": "Keep your answer concise."}, {"word": "Conducive", "meaning": "Helpful, making likely", "example": "The quiet was conducive to studying."}, {"word": "Conspicuous", "meaning": "Noticeable", "example": "The sign was conspicuous."}, {"word": "Controversial", "meaning": "Causing debate", "example": "It was a controversial law."}, {"word": "Convoluted", "meaning": "Complicated", "example": "The plot was convoluted."}, {"word": "Credible", "meaning": "Believable", "example": "The story was credible."}, {"word": "Cumbersome", "meaning": "Clumsy, hard to manage", "example": "The package was cumbersome."}, {"word": "Defiant", "meaning": "Resisting authority", "example": "The child was defiant."}, {"word": "Diligent", "meaning": "Hardworking", "example": "She was diligent in her studies."}, {"word": "Dire", "meaning": "Urgent, terrible", "example": "They were in dire need of help."}, {"word": "Discrete", "meaning": "Separate", "example": "The essay covered three discrete topics."}, {"word": "Dubious", "meaning": "Doubtful", "example": "The claim was dubious."}, {"word": "Eloquent", "meaning": "Persuasive, fluent", "example": "The speaker was eloquent."}, {"word": "Emulate", "meaning": "Imitate", "example": "She emulated her mentor."}, {"word": "Entail", "meaning": "Require", "example": "The job entails long hours."}, {"word": "Erroneous", "meaning": "Wrong, mistaken", "example": "He made an erroneous assumption."}, {"word": "Exemplify", "meaning": "Serve as example", "example": "Her work exemplifies dedication."}, {"word": "Exhilarating", "meaning": "Exciting", "example": "The ride was exhilarating."}, {"word": "Frugal", "meaning": "Economical, careful with money", "example": "He lived a frugal lifestyle."}, {"word": "Grim", "meaning": "Serious, bleak", "example": "The outlook was grim."}, {"word": "Hostile", "meaning": "Aggressive, unfriendly", "example": "The environment was hostile."}, {"word": "Illicit", "meaning": "Illegal", "example": "They were caught with illicit goods."}, {"word": "Imminent", "meaning": "About to happen", "example": "A storm is imminent."}, {"word": "Impeccable", "meaning": "Perfect, flawless", "example": "Her manners were impeccable."}, {"word": "Incisive", "meaning": "Clear, sharp", "example": "He gave incisive comments."}, {"word": "Incompetent", "meaning": "Not capable", "example": "The worker was incompetent."}, {"word": "Indignant", "meaning": "Angry at unfairness", "example": "She was indignant at the insult."}, {"word": "Irascible", "meaning": "Easily angered", "example": "He was irascible under stress."}, {"word": "Judicious", "meaning": "Wise, sensible", "example": "It was a judicious decision."}, {"word": "Lament", "meaning": "Express sorrow", "example": "They lamented the loss."}, {"word": "Lavish", "meaning": "Luxurious", "example": "The banquet was lavish."}, {"word": "Longevity", "meaning": "Long life", "example": "The product\u2019s longevity impressed buyers."}, {"word": "Malleable", "meaning": "Easily shaped or influenced", "example": "Gold is malleable."}, {"word": "Melancholy", "meaning": "Sadness", "example": "She felt a deep melancholy."}, {"word": "Militant", "meaning": "Aggressive in support", "example": "The group was militant in their cause."}, {"word": "Morose", "meaning": "Sullen, gloomy", "example": "He was morose after the defeat."}, {"word": "Myriad", "meaning": "Countless, many", "example": "They faced a myriad of problems."}, {"word": "Nostalgic", "meaning": "Longing for the past", "example": "She felt nostalgic about childhood."}, {"word": "Oblivious", "meaning": "Unaware", "example": "He was oblivious to the noise."}];
-  let cards = [...allCards];
+  const allCards = [{
+    "word": "Abdicate",
+    "meaning": "to give up power or responsibility",
+    "example": "The king chose to abdicate the throne."
+  },
+  {
+    "word": "Aberration",
+    "meaning": "a departure from what is normal",
+    "example": "Snow in June was an aberration."
+  },
+  {
+    "word": "Abhor",
+    "meaning": "to hate deeply",
+    "example": "I abhor cruelty to animals."
+  },
+  {
+    "word": "Abject",
+    "meaning": "extremely bad or hopeless",
+    "example": "They lived in abject poverty."
+  },
+  {
+    "word": "Abridge",
+    "meaning": "to shorten without losing meaning",
+    "example": "The story was abridged for younger readers."
+  },
+  {
+    "word": "Absolve",
+    "meaning": "to free from blame",
+    "example": "The judge absolved her of all charges."
+  },
+  {
+    "word": "Abstain",
+    "meaning": "to choose not to do something",
+    "example": "He decided to abstain from dessert."
+  },
+  {
+    "word": "Abstract",
+    "meaning": "Theoretical, not concrete",
+    "example": "He explained the abstract concept."
+  },
+  {
+    "word": "Abundant",
+    "meaning": "plentiful",
+    "example": "The valley had abundant water."
+  },
+  {
+    "word": "Accentuate",
+    "meaning": "to emphasize",
+    "example": "Bold lines accentuate the design."
+  },
+  {
+    "word": "Acclaim",
+    "meaning": "enthusiastic praise",
+    "example": "The novel earned widespread acclaim."
+  },
+  {
+    "word": "Accolade",
+    "meaning": "an award or honor",
+    "example": "She received an accolade for service."
+  },
+  {
+    "word": "Acknowledge",
+    "meaning": "Recognize or admit",
+    "example": "He acknowledged his mistakes."
+  },
+  {
+    "word": "Acquiesce",
+    "meaning": "to accept without protest",
+    "example": "They acquiesced to the new rules."
+  },
+  {
+    "word": "Acrid",
+    "meaning": "strong and unpleasant in taste or smell",
+    "example": "Acrid smoke filled the room."
+  },
+  {
+    "word": "Acumen",
+    "meaning": "keen insight",
+    "example": "Her business acumen impressed investors."
+  },
+  {
+    "word": "Adage",
+    "meaning": "a proverb or short statement",
+    "example": "She quoted an old adage."
+  },
+  {
+    "word": "Adamant",
+    "meaning": "Unyielding",
+    "example": "She was adamant about her decision."
+  },
+  {
+    "word": "Adept",
+    "meaning": "highly skilled",
+    "example": "She is adept at mental math."
+  },
+  {
+    "word": "Adhere",
+    "meaning": "to stick to; follow closely",
+    "example": "We adhere to lab safety rules."
+  },
+  {
+    "word": "Admonish",
+    "meaning": "to warn or scold gently",
+    "example": "The coach admonished the team to focus."
+  },
+  {
+    "word": "Adroit",
+    "meaning": "clever and skillful",
+    "example": "She offered an adroit solution."
+  },
+  {
+    "word": "Adulation",
+    "meaning": "excessive praise",
+    "example": "The celebrity disliked constant adulation."
+  },
+  {
+    "word": "Adverse",
+    "meaning": "Harmful, unfavorable",
+    "example": "The drug had adverse side effects."
+  },
+  {
+    "word": "Advocate",
+    "meaning": "Support or recommend",
+    "example": "She advocates for women's rights."
+  },
+  {
+    "word": "Affable",
+    "meaning": "friendly and easy to talk to",
+    "example": "The affable guide answered every question."
+  },
+  {
+    "word": "Affectation",
+    "meaning": "artificial behavior to impress",
+    "example": "His accent felt like an affectation."
+  },
+  {
+    "word": "Affluent",
+    "meaning": "Wealthy",
+    "example": "They lived in an affluent neighborhood."
+  },
+  {
+    "word": "Aggrandize",
+    "meaning": "to increase power or wealth",
+    "example": "He aggrandized his reputation with lies."
+  },
+  {
+    "word": "Aghast",
+    "meaning": "shocked with fear or amazement",
+    "example": "We were aghast at the price."
+  },
+  {
+    "word": "Alacrity",
+    "meaning": "cheerful readiness",
+    "example": "She accepted the invitation with alacrity."
+  },
+  {
+    "word": "Alienate",
+    "meaning": "to make someone feel isolated",
+    "example": "His behavior alienated his coworkers."
+  },
+  {
+    "word": "Allege",
+    "meaning": "Claim without proof",
+    "example": "The report alleged misconduct."
+  },
+  {
+    "word": "Alleviate",
+    "meaning": "Relieve, lessen",
+    "example": "Medicine alleviated the pain."
+  },
+  {
+    "word": "Alliance",
+    "meaning": "Union for mutual benefit",
+    "example": "The two countries formed an alliance."
+  },
+  {
+    "word": "Allocate",
+    "meaning": "Distribute for a purpose",
+    "example": "Funds were allocated to research."
+  },
+  {
+    "word": "Allude",
+    "meaning": "Refer indirectly",
+    "example": "He alluded to the problem in his speech."
+  },
+  {
+    "word": "Aloof",
+    "meaning": "Emotionally distant",
+    "example": "He stayed aloof during the discussion."
+  },
+  {
+    "word": "Altruistic",
+    "meaning": "Selfless concern for others",
+    "example": "Her altruistic actions helped many."
+  },
+  {
+    "word": "Amass",
+    "meaning": "to gather or collect",
+    "example": "He managed to amass a fortune."
+  },
+  {
+    "word": "Ambiguous",
+    "meaning": "Unclear, multiple meanings",
+    "example": "The question was ambiguous."
+  },
+  {
+    "word": "Ambivalent",
+    "meaning": "Mixed feelings",
+    "example": "He felt ambivalent about leaving."
+  },
+  {
+    "word": "Ameliorate",
+    "meaning": "Improve",
+    "example": "The reforms ameliorated working conditions."
+  },
+  {
+    "word": "Amend",
+    "meaning": "Change a law or document",
+    "example": "They amended the constitution."
+  },
+  {
+    "word": "Amiable",
+    "meaning": "Friendly",
+    "example": "She had an amiable personality."
+  },
+  {
+    "word": "Amicable",
+    "meaning": "peaceful and friendly",
+    "example": "They reached an amicable solution."
+  },
+  {
+    "word": "Ample",
+    "meaning": "more than enough",
+    "example": "There was ample time to finish."
+  },
+  {
+    "word": "Anachronism",
+    "meaning": "something out of its proper time",
+    "example": "A smartphone in 1800 is an anachronism."
+  },
+  {
+    "word": "Analogy",
+    "meaning": "a comparison for explanation",
+    "example": "She used an analogy to clarify the idea."
+  },
+  {
+    "word": "Analyze",
+    "meaning": "Examine closely",
+    "example": "She analyzed the data carefully."
+  },
+  {
+    "word": "Anarchy",
+    "meaning": "chaos from lack of order",
+    "example": "The city fell into anarchy."
+  },
+  {
+    "word": "Anomaly",
+    "meaning": "Something unusual",
+    "example": "The test results showed an anomaly."
+  },
+  {
+    "word": "Antagonize",
+    "meaning": "to provoke or make hostile",
+    "example": "His remarks antagonized the crowd."
+  },
+  {
+    "word": "Anticipate",
+    "meaning": "Expect",
+    "example": "We anticipate heavy traffic."
+  },
+  {
+    "word": "Antipathy",
+    "meaning": "a strong dislike",
+    "example": "She felt antipathy toward dishonesty."
+  },
+  {
+    "word": "Apathetic",
+    "meaning": "Lacking interest",
+    "example": "The voters were apathetic."
+  },
+  {
+    "word": "Apathy",
+    "meaning": "lack of interest",
+    "example": "Voter apathy can affect elections."
+  },
+  {
+    "word": "Aplomb",
+    "meaning": "self-confidence under pressure",
+    "example": "He answered with aplomb."
+  },
+  {
+    "word": "Apprehensive",
+    "meaning": "Anxious or fearful",
+    "example": "He felt apprehensive about the exam."
+  },
+  {
+    "word": "Arbitrary",
+    "meaning": "Random or based on whim",
+    "example": "The decision seemed arbitrary."
+  },
+  {
+    "word": "Arcane",
+    "meaning": "mysterious; known by few",
+    "example": "The poem used arcane references."
+  },
+  {
+    "word": "Ardent",
+    "meaning": "Very enthusiastic",
+    "example": "She was an ardent supporter of the cause."
+  },
+  {
+    "word": "Arduous",
+    "meaning": "Difficult",
+    "example": "Climbing the mountain was arduous."
+  },
+  {
+    "word": "Articulate",
+    "meaning": "to speak clearly; well-spoken",
+    "example": "She is articulate in debates."
+  },
+  {
+    "word": "Ascertain",
+    "meaning": "to find out for sure",
+    "example": "We must ascertain the facts."
+  },
+  {
+    "word": "Assert",
+    "meaning": "State confidently",
+    "example": "The activist asserted her rights."
+  },
+  {
+    "word": "Assiduous",
+    "meaning": "hardworking and thorough",
+    "example": "Her assiduous research paid off."
+  },
+  {
+    "word": "Assuage",
+    "meaning": "to ease or lessen",
+    "example": "Reassurance can assuage fear."
+  },
+  {
+    "word": "Astute",
+    "meaning": "clever and perceptive",
+    "example": "An astute observation changed the outcome."
+  },
+  {
+    "word": "Audacious",
+    "meaning": "Bold, daring",
+    "example": "She made an audacious move."
+  },
+  {
+    "word": "Augment",
+    "meaning": "to increase or add to",
+    "example": "They will augment the team with new players."
+  },
+  {
+    "word": "Auspicious",
+    "meaning": "favorable or promising",
+    "example": "It was an auspicious start to the season."
+  },
+  {
+    "word": "Austere",
+    "meaning": "plain; strict; without luxury",
+    "example": "The room was austere but neat."
+  },
+  {
+    "word": "Authentic",
+    "meaning": "Genuine, real",
+    "example": "The signature was authentic."
+  },
+  {
+    "word": "Avarice",
+    "meaning": "extreme greed for wealth",
+    "example": "Avarice led to his downfall."
+  },
+  {
+    "word": "Avid",
+    "meaning": "eager; enthusiastic",
+    "example": "She is an avid reader."
+  },
+  {
+    "word": "Banal",
+    "meaning": "common and boring",
+    "example": "The speech was banal and uninspiring."
+  },
+  {
+    "word": "Belligerent",
+    "meaning": "Hostile, aggressive",
+    "example": "The belligerent nations went to war."
+  },
+  {
+    "word": "Benevolent",
+    "meaning": "Kind, charitable",
+    "example": "The foundation was benevolent."
+  },
+  {
+    "word": "Benign",
+    "meaning": "harmless; gentle",
+    "example": "The doctor said the lump was benign."
+  },
+  {
+    "word": "Bequeath",
+    "meaning": "to leave to someone in a will",
+    "example": "She will bequeath books to the library."
+  },
+  {
+    "word": "Berate",
+    "meaning": "to scold harshly",
+    "example": "The coach berated the players for mistakes."
+  },
+  {
+    "word": "Beseech",
+    "meaning": "to beg urgently",
+    "example": "They beseeched her to stay."
+  },
+  {
+    "word": "Bias",
+    "meaning": "Prejudice for or against",
+    "example": "The study showed bias."
+  },
+  {
+    "word": "Biased",
+    "meaning": "Unfairly prejudiced",
+    "example": "The article was biased."
+  },
+  {
+    "word": "Bolster",
+    "meaning": "Strengthen or support",
+    "example": "The teacher’s praise bolstered his confidence."
+  },
+  {
+    "word": "Bombastic",
+    "meaning": "using grand words with little meaning",
+    "example": "His bombastic speech lacked facts."
+  },
+  {
+    "word": "Booming",
+    "meaning": "Growing quickly",
+    "example": "The city had a booming economy."
+  },
+  {
+    "word": "Brevity",
+    "meaning": "shortness of time or speech",
+    "example": "The teacher praised the essay’s brevity."
+  },
+  {
+    "word": "Brisk",
+    "meaning": "Quick, lively",
+    "example": "She took a brisk walk."
+  },
+  {
+    "word": "Burgeon",
+    "meaning": "to grow rapidly",
+    "example": "The company is burgeoning with success."
+  },
+  {
+    "word": "Buttress",
+    "meaning": "Support or strengthen",
+    "example": "The evidence buttressed her claim."
+  },
+  {
+    "word": "Cacophony",
+    "meaning": "a harsh, jarring mixture of sounds",
+    "example": "The cacophony of horns was unbearable."
+  },
+  {
+    "word": "Cajole",
+    "meaning": "to persuade with flattery",
+    "example": "He cajoled her into joining the club."
+  },
+  {
+    "word": "Callous",
+    "meaning": "showing no concern for others",
+    "example": "His callous remarks upset her."
+  },
+  {
+    "word": "Candid",
+    "meaning": "Honest, direct",
+    "example": "He gave a candid response."
+  },
+  {
+    "word": "Candor",
+    "meaning": "honesty; openness",
+    "example": "She spoke with candor."
+  },
+  {
+    "word": "Capacious",
+    "meaning": "roomy; spacious",
+    "example": "A capacious bag fit everything."
+  },
+  {
+    "word": "Capitulate",
+    "meaning": "to surrender",
+    "example": "The army capitulated after months of fighting."
+  },
+  {
+    "word": "Capricious",
+    "meaning": "Unpredictable",
+    "example": "The weather is capricious."
+  },
+  {
+    "word": "Catalyze",
+    "meaning": "Cause or accelerate",
+    "example": "The speech catalyzed a movement."
+  },
+  {
+    "word": "Caustic",
+    "meaning": "sarcastic or corrosive",
+    "example": "His caustic humor offended some people."
+  },
+  {
+    "word": "Cease",
+    "meaning": "Stop",
+    "example": "Hostilities ceased after the treaty."
+  },
+  {
+    "word": "Censure",
+    "meaning": "severe criticism",
+    "example": "The senator faced censure for his actions."
+  },
+  {
+    "word": "Chagrin",
+    "meaning": "embarrassment or shame",
+    "example": "He flushed with chagrin."
+  },
+  {
+    "word": "Chastise",
+    "meaning": "to scold or punish",
+    "example": "The coach chastised the team."
+  },
+  {
+    "word": "Chronic",
+    "meaning": "Long-lasting",
+    "example": "He suffers from chronic pain."
+  },
+  {
+    "word": "Circumspect",
+    "meaning": "careful and cautious",
+    "example": "Be circumspect with private info."
+  },
+  {
+    "word": "Clandestine",
+    "meaning": "secret and hidden",
+    "example": "They held clandestine meetings."
+  },
+  {
+    "word": "Clarify",
+    "meaning": "Make clear or easier to understand",
+    "example": "She clarified her instructions."
+  },
+  {
+    "word": "Clemency",
+    "meaning": "mercy; lenience",
+    "example": "The judge granted clemency."
+  },
+  {
+    "word": "Coalesce",
+    "meaning": "to come together; unite",
+    "example": "Small groups coalesced into a team."
+  },
+  {
+    "word": "Coerce",
+    "meaning": "Force someone",
+    "example": "They coerced him into signing."
+  },
+  {
+    "word": "Cogent",
+    "meaning": "clear and convincing",
+    "example": "She gave a cogent argument."
+  },
+  {
+    "word": "Coherent",
+    "meaning": "Logical and consistent",
+    "example": "Her essay was coherent."
+  },
+  {
+    "word": "Coincide",
+    "meaning": "Happen at the same time",
+    "example": "The holidays coincided this year."
+  },
+  {
+    "word": "Colloquial",
+    "meaning": "Informal language",
+    "example": "He used colloquial expressions."
+  },
+  {
+    "word": "Colossal",
+    "meaning": "Huge",
+    "example": "The building was colossal."
+  },
+  {
+    "word": "Commence",
+    "meaning": "Begin",
+    "example": "The play will commence soon."
+  },
+  {
+    "word": "Commend",
+    "meaning": "to praise",
+    "example": "The officer was commended for bravery."
+  },
+  {
+    "word": "Competent",
+    "meaning": "Capable",
+    "example": "She is competent in her job."
+  },
+  {
+    "word": "Complacent",
+    "meaning": "Self-satisfied",
+    "example": "The team grew complacent after winning."
+  },
+  {
+    "word": "Comprehensive",
+    "meaning": "Complete, covering all",
+    "example": "The report was comprehensive."
+  },
+  {
+    "word": "Concede",
+    "meaning": "Admit reluctantly",
+    "example": "He conceded that he was wrong."
+  },
+  {
+    "word": "Concise",
+    "meaning": "Brief and clear",
+    "example": "Keep your answer concise."
+  },
+  {
+    "word": "Conclude",
+    "meaning": "Finish",
+    "example": "The meeting concluded at noon."
+  },
+  {
+    "word": "Concrete",
+    "meaning": "Tangible, real",
+    "example": "The evidence was concrete and convincing."
+  },
+  {
+    "word": "Concur",
+    "meaning": "to agree",
+    "example": "I concur with that view."
+  },
+  {
+    "word": "Condone",
+    "meaning": "to overlook or allow",
+    "example": "We cannot condone cheating."
+  },
+  {
+    "word": "Conducive",
+    "meaning": "Helpful, making likely",
+    "example": "The quiet was conducive to studying."
+  },
+  {
+    "word": "Confer",
+    "meaning": "to discuss; to grant",
+    "example": "The committee will confer an award."
+  },
+  {
+    "word": "Confide",
+    "meaning": "to share a secret",
+    "example": "She confided in her friend."
+  },
+  {
+    "word": "Conform",
+    "meaning": "to follow rules or customs",
+    "example": "Students must conform to the code."
+  },
+  {
+    "word": "Confound",
+    "meaning": "to confuse or puzzle",
+    "example": "The riddle confounded the class."
+  },
+  {
+    "word": "Congenial",
+    "meaning": "pleasant and friendly",
+    "example": "He found the team congenial."
+  },
+  {
+    "word": "Conjecture",
+    "meaning": "a guess based on little evidence",
+    "example": "That theory is still conjecture."
+  },
+  {
+    "word": "Connoisseur",
+    "meaning": "an expert judge",
+    "example": "A connoisseur of art curated the show."
+  },
+  {
+    "word": "Conscientious",
+    "meaning": "Careful and diligent",
+    "example": "He is a conscientious worker."
+  },
+  {
+    "word": "Consensus",
+    "meaning": "General agreement",
+    "example": "The group reached consensus."
+  },
+  {
+    "word": "Conspicuous",
+    "meaning": "Easily seen",
+    "example": "The red dress was conspicuous."
+  },
+  {
+    "word": "Constituent",
+    "meaning": "Part of a whole",
+    "example": "Oxygen is a constituent of air."
+  },
+  {
+    "word": "Constitute",
+    "meaning": "to make up; to form",
+    "example": "These parts constitute the whole."
+  },
+  {
+    "word": "Construe",
+    "meaning": "to interpret or understand",
+    "example": "How do you construe this remark?"
+  },
+  {
+    "word": "Contend",
+    "meaning": "Argue strongly",
+    "example": "She contended that her view was correct."
+  },
+  {
+    "word": "Contentious",
+    "meaning": "argumentative; quarrelsome",
+    "example": "The meeting grew contentious."
+  },
+  {
+    "word": "Contrite",
+    "meaning": "remorseful",
+    "example": "He felt contrite after lying."
+  },
+  {
+    "word": "Controversial",
+    "meaning": "Causing debate",
+    "example": "It was a controversial law."
+  },
+  {
+    "word": "Conundrum",
+    "meaning": "a difficult problem",
+    "example": "Choosing teams was a conundrum."
+  },
+  {
+    "word": "Convene",
+    "meaning": "to come together for a meeting",
+    "example": "We convene after school."
+  },
+  {
+    "word": "Conventional",
+    "meaning": "Traditional",
+    "example": "They followed conventional methods."
+  },
+  {
+    "word": "Converge",
+    "meaning": "to come together from different directions",
+    "example": "Two paths converge at the gate."
+  },
+  {
+    "word": "Convey",
+    "meaning": "to communicate",
+    "example": "Pictures convey ideas."
+  },
+  {
+    "word": "Conviction",
+    "meaning": "a strong belief; a judgment",
+    "example": "She spoke with conviction."
+  },
+  {
+    "word": "Convoluted",
+    "meaning": "Complicated",
+    "example": "The plot was convoluted."
+  },
+  {
+    "word": "Copious",
+    "meaning": "abundant; plentiful",
+    "example": "She took copious notes."
+  },
+  {
+    "word": "Corroborate",
+    "meaning": "Confirm with evidence",
+    "example": "The witness corroborated the suspect’s alibi."
+  },
+  {
+    "word": "Covert",
+    "meaning": "Hidden or secret",
+    "example": "The spy carried out a covert mission."
+  },
+  {
+    "word": "Credible",
+    "meaning": "Believable",
+    "example": "The story was credible."
+  },
+  {
+    "word": "Credulous",
+    "meaning": "easily fooled; gullible",
+    "example": "Don’t be credulous about rumors."
+  },
+  {
+    "word": "Crescendo",
+    "meaning": "a gradual increase in loudness",
+    "example": "The song built to a crescendo."
+  },
+  {
+    "word": "Criteria",
+    "meaning": "Standards of judgment",
+    "example": "The criteria for success are clear."
+  },
+  {
+    "word": "Culpable",
+    "meaning": "deserving blame",
+    "example": "He was culpable for the mess."
+  },
+  {
+    "word": "Cumbersome",
+    "meaning": "Clumsy, hard to manage",
+    "example": "The package was cumbersome."
+  },
+  {
+    "word": "Cursory",
+    "meaning": "Quick, superficial",
+    "example": "He made a cursory inspection."
+  },
+  {
+    "word": "Cynical",
+    "meaning": "Distrustful, skeptical",
+    "example": "He was cynical about politics."
+  },
+  {
+    "word": "Dauntless",
+    "meaning": "fearless; bold",
+    "example": "The dauntless hiker crossed the ridge."
+  },
+  {
+    "word": "Debacle",
+    "meaning": "a complete failure",
+    "example": "The event was a debacle."
+  },
+  {
+    "word": "Debilitate",
+    "meaning": "to weaken",
+    "example": "The illness debilitated him."
+  },
+  {
+    "word": "Debunk",
+    "meaning": "Expose falseness",
+    "example": "The researcher debunked the myth."
+  },
+  {
+    "word": "Decree",
+    "meaning": "an official order",
+    "example": "The mayor issued a decree."
+  },
+  {
+    "word": "Decry",
+    "meaning": "to criticize openly",
+    "example": "Leaders decried the violence."
+  },
+  {
+    "word": "Defame",
+    "meaning": "to damage the good name of",
+    "example": "He tried to defame his rival."
+  },
+  {
+    "word": "Deference",
+    "meaning": "respectful submission",
+    "example": "They bowed in deference."
+  },
+  {
+    "word": "Defiant",
+    "meaning": "Resisting authority",
+    "example": "The child was defiant."
+  },
+  {
+    "word": "Deficit",
+    "meaning": "Shortfall",
+    "example": "The country faced a budget deficit."
+  },
+  {
+    "word": "Definitive",
+    "meaning": "conclusive; final",
+    "example": "This is the definitive answer."
+  },
+  {
+    "word": "Deft",
+    "meaning": "skillful and quick",
+    "example": "Her deft hands braided hair."
+  },
+  {
+    "word": "Deleterious",
+    "meaning": "harmful; damaging",
+    "example": "Deleterious fumes filled the room."
+  },
+  {
+    "word": "Deliberate",
+    "meaning": "careful; done on purpose",
+    "example": "They made a deliberate choice."
+  },
+  {
+    "word": "Delineate",
+    "meaning": "Describe in detail",
+    "example": "The map delineated the borders."
+  },
+  {
+    "word": "Deluge",
+    "meaning": "a flood; a great amount",
+    "example": "A deluge of emails arrived."
+  },
+  {
+    "word": "Demarcate",
+    "meaning": "to set the boundaries of",
+    "example": "Fences demarcate the field."
+  },
+  {
+    "word": "Demure",
+    "meaning": "modest and reserved",
+    "example": "She gave a demure smile."
+  },
+  {
+    "word": "Denounce",
+    "meaning": "to criticize publicly",
+    "example": "They denounced the policy."
+  },
+  {
+    "word": "Deplete",
+    "meaning": "to use up",
+    "example": "We must not deplete resources."
+  },
+  {
+    "word": "Depreciate",
+    "meaning": "to lessen in value",
+    "example": "Cars depreciate quickly."
+  },
+  {
+    "word": "Deride",
+    "meaning": "to mock or make fun of",
+    "example": "Don’t deride others."
+  },
+  {
+    "word": "Derivative",
+    "meaning": "unoriginal; based on another source",
+    "example": "The movie was derivative."
+  },
+  {
+    "word": "Derive",
+    "meaning": "Obtain from a source",
+    "example": "The word derives from Latin."
+  },
+  {
+    "word": "Desolate",
+    "meaning": "empty and lonely",
+    "example": "The landscape looked desolate."
+  },
+  {
+    "word": "Despondent",
+    "meaning": "hopeless and sad",
+    "example": "He felt despondent after the loss."
+  },
+  {
+    "word": "Destitute",
+    "meaning": "extremely poor",
+    "example": "The destitute family needed help."
+  },
+  {
+    "word": "Detached",
+    "meaning": "Emotionally uninvolved",
+    "example": "The doctor remained detached."
+  },
+  {
+    "word": "Deteriorate",
+    "meaning": "to become worse",
+    "example": "The road began to deteriorate."
+  },
+  {
+    "word": "Detract",
+    "meaning": "to take away from value",
+    "example": "The stain detracts from the shirt."
+  },
+  {
+    "word": "Deviate",
+    "meaning": "Depart from norm",
+    "example": "He deviated from the plan."
+  },
+  {
+    "word": "Devious",
+    "meaning": "sneaky; dishonest",
+    "example": "A devious plan fooled them."
+  },
+  {
+    "word": "Devoid",
+    "meaning": "completely lacking",
+    "example": "The sky was devoid of clouds."
+  },
+  {
+    "word": "Devout",
+    "meaning": "deeply religious; sincere",
+    "example": "They are devout supporters."
+  },
+  {
+    "word": "Dexterous",
+    "meaning": "skillful",
+    "example": "A dexterous pianist impressed the crowd."
+  },
+  {
+    "word": "Didactic",
+    "meaning": "intended to teach",
+    "example": "The novel had a didactic tone."
+  },
+  {
+    "word": "Diffident",
+    "meaning": "shy; lacking confidence",
+    "example": "A diffident student waited to speak."
+  },
+  {
+    "word": "Dilapidated",
+    "meaning": "run-down; in disrepair",
+    "example": "A dilapidated barn leaned left."
+  },
+  {
+    "word": "Diligent",
+    "meaning": "Hardworking",
+    "example": "She was diligent in her studies."
+  },
+  {
+    "word": "Diminish",
+    "meaning": "Make smaller",
+    "example": "The pain diminished over time."
+  },
+  {
+    "word": "Diminutive",
+    "meaning": "very small",
+    "example": "A diminutive puppy yawned."
+  },
+  {
+    "word": "Diplomatic",
+    "meaning": "Relating to foreign relations",
+    "example": "He had a diplomatic mission."
+  },
+  {
+    "word": "Dire",
+    "meaning": "Urgent, terrible",
+    "example": "They were in dire need of help."
+  },
+  {
+    "word": "Discerning",
+    "meaning": "showing good judgment",
+    "example": "A discerning reader spots errors."
+  },
+  {
+    "word": "Discredit",
+    "meaning": "Harm reputation or credibility",
+    "example": "The article discredited the politician."
+  },
+  {
+    "word": "Discreet",
+    "meaning": "careful in speech or actions",
+    "example": "Be discreet with private news."
+  },
+  {
+    "word": "Discrepancy",
+    "meaning": "Difference, inconsistency",
+    "example": "There was a discrepancy in the report."
+  },
+  {
+    "word": "Discrete",
+    "meaning": "Separate",
+    "example": "The essay covered three discrete topics."
+  },
+  {
+    "word": "Disdain",
+    "meaning": "scorn; lack of respect",
+    "example": "She looked with disdain."
+  },
+  {
+    "word": "Disgruntled",
+    "meaning": "unhappy; annoyed",
+    "example": "Customers were disgruntled by delays."
+  },
+  {
+    "word": "Dismayed",
+    "meaning": "Upset, distressed",
+    "example": "They were dismayed by the results."
+  },
+  {
+    "word": "Disparage",
+    "meaning": "to speak poorly of",
+    "example": "Don’t disparage classmates."
+  },
+  {
+    "word": "Disparate",
+    "meaning": "fundamentally different",
+    "example": "Two disparate ideas clashed."
+  },
+  {
+    "word": "Dispel",
+    "meaning": "to drive away",
+    "example": "Facts can dispel rumors."
+  },
+  {
+    "word": "Disperse",
+    "meaning": "to scatter in different directions",
+    "example": "The crowd began to disperse."
+  },
+  {
+    "word": "Disseminate",
+    "meaning": "Spread widely",
+    "example": "The news was disseminated quickly."
+  },
+  {
+    "word": "Dissent",
+    "meaning": "disagreement; to disagree",
+    "example": "There was dissent in the group."
+  },
+  {
+    "word": "Dissuade",
+    "meaning": "to persuade not to do something",
+    "example": "We tried to dissuade him."
+  },
+  {
+    "word": "Distort",
+    "meaning": "Twist out of shape or meaning",
+    "example": "The mirror distorted the image."
+  },
+  {
+    "word": "Diverge",
+    "meaning": "to go in different directions",
+    "example": "The paths diverge at the trees."
+  },
+  {
+    "word": "Diversion",
+    "meaning": "something that distracts; recreation",
+    "example": "A puzzle was a welcome diversion."
+  },
+  {
+    "word": "Divulge",
+    "meaning": "to reveal or disclose",
+    "example": "Don’t divulge the secret."
+  },
+  {
+    "word": "Docile",
+    "meaning": "obedient and gentle",
+    "example": "The docile dog obeyed."
+  },
+  {
+    "word": "Doctrine",
+    "meaning": "Set of beliefs",
+    "example": "The church spread its doctrine."
+  },
+  {
+    "word": "Dogged",
+    "meaning": "stubbornly determined",
+    "example": "Her dogged effort paid off."
+  },
+  {
+    "word": "Dogma",
+    "meaning": "Strict belief system",
+    "example": "They rejected old dogmas."
+  },
+  {
+    "word": "Dogmatic",
+    "meaning": "stubborn about beliefs",
+    "example": "He was dogmatic in debates."
+  },
+  {
+    "word": "Doleful",
+    "meaning": "sorrowful; mournful",
+    "example": "A doleful tune played."
+  },
+  {
+    "word": "Dormant",
+    "meaning": "inactive; asleep",
+    "example": "The volcano is dormant."
+  },
+  {
+    "word": "Dubious",
+    "meaning": "Doubtful",
+    "example": "The claim was dubious."
+  },
+  {
+    "word": "Duplicity",
+    "meaning": "deceit; double-dealing",
+    "example": "We won’t tolerate duplicity."
+  },
+  {
+    "word": "Earnest",
+    "meaning": "Sincere and serious",
+    "example": "He made an earnest request."
+  },
+  {
+    "word": "Ebullient",
+    "meaning": "cheerful and full of energy",
+    "example": "An ebullient crowd gathered."
+  },
+  {
+    "word": "Eccentric",
+    "meaning": "Unconventional, odd",
+    "example": "The professor was eccentric but brilliant."
+  },
+  {
+    "word": "Eclectic",
+    "meaning": "drawing from many sources",
+    "example": "Her eclectic style mixed eras."
+  },
+  {
+    "word": "Eddy",
+    "meaning": "a circular current",
+    "example": "Leaves swirled in the eddy."
+  },
+  {
+    "word": "Edify",
+    "meaning": "to improve morally or intellectually",
+    "example": "Good books edify readers."
+  },
+  {
+    "word": "Efficacy",
+    "meaning": "effectiveness",
+    "example": "We tested the drug’s efficacy."
+  },
+  {
+    "word": "Effusive",
+    "meaning": "expressing feelings freely",
+    "example": "Her effusive thanks warmed us."
+  },
+  {
+    "word": "Egalitarian",
+    "meaning": "promoting equal rights",
+    "example": "They support egalitarian policies."
+  },
+  {
+    "word": "Egoistic",
+    "meaning": "Self-centered",
+    "example": "He had an egoistic approach."
+  },
+  {
+    "word": "Elaborate",
+    "meaning": "detailed; to develop in detail",
+    "example": "Give an elaborate explanation."
+  },
+  {
+    "word": "Elated",
+    "meaning": "joyful; very happy",
+    "example": "She felt elated by the news."
+  },
+  {
+    "word": "Elicit",
+    "meaning": "to draw out a response",
+    "example": "The joke elicited laughter."
+  },
+  {
+    "word": "Eloquent",
+    "meaning": "Persuasive, fluent",
+    "example": "The speaker was eloquent."
+  },
+  {
+    "word": "Elucidate",
+    "meaning": "Make clear",
+    "example": "The professor elucidated the complex idea."
+  },
+  {
+    "word": "Elusive",
+    "meaning": "hard to catch or define",
+    "example": "The meaning remains elusive."
+  },
+  {
+    "word": "Emaciated",
+    "meaning": "abnormally thin",
+    "example": "An emaciated dog needed care."
+  },
+  {
+    "word": "Embellish",
+    "meaning": "to decorate; add details",
+    "example": "He embellished the story."
+  },
+  {
+    "word": "Embolden",
+    "meaning": "to give courage",
+    "example": "The win emboldened the team."
+  },
+  {
+    "word": "Emerge",
+    "meaning": "Come out",
+    "example": "A leader emerged from the crowd."
+  },
+  {
+    "word": "Empirical",
+    "meaning": "Based on observation",
+    "example": "The theory lacks empirical evidence."
+  },
+  {
+    "word": "Emulate",
+    "meaning": "Imitate",
+    "example": "She emulated her mentor."
+  },
+  {
+    "word": "Enamor",
+    "meaning": "to fill with love",
+    "example": "He was enamored of chess."
+  },
+  {
+    "word": "Encompass",
+    "meaning": "to include; surround",
+    "example": "The unit encompasses three topics."
+  },
+  {
+    "word": "Endeavor",
+    "meaning": "serious effort; to try",
+    "example": "This is a group endeavor."
+  },
+  {
+    "word": "Endorse",
+    "meaning": "Support or approve",
+    "example": "The senator endorsed the bill."
+  },
+  {
+    "word": "Endure",
+    "meaning": "Continue despite hardship",
+    "example": "They endured years of struggle."
+  },
+  {
+    "word": "Enervate",
+    "meaning": "to weaken; drain energy",
+    "example": "Heat can enervate runners."
+  },
+  {
+    "word": "Engender",
+    "meaning": "Cause or give rise to",
+    "example": "The policy engendered debate."
+  },
+  {
+    "word": "Enhance",
+    "meaning": "to improve or increase",
+    "example": "Spices enhance flavor."
+  },
+  {
+    "word": "Enigma",
+    "meaning": "a mystery or puzzle",
+    "example": "The code remains an enigma."
+  },
+  {
+    "word": "Ennui",
+    "meaning": "boredom from lack of interest",
+    "example": "He felt ennui during the lecture."
+  },
+  {
+    "word": "Enrich",
+    "meaning": "to improve or add value",
+    "example": "Travel can enrich your life."
+  },
+  {
+    "word": "Enshrine",
+    "meaning": "to preserve as sacred",
+    "example": "The law enshrines rights."
+  },
+  {
+    "word": "Ensnare",
+    "meaning": "to trap or capture",
+    "example": "The net ensnared fish."
+  },
+  {
+    "word": "Entail",
+    "meaning": "Require",
+    "example": "The job entails long hours."
+  },
+  {
+    "word": "Entice",
+    "meaning": "to attract by offering something",
+    "example": "The sale will entice shoppers."
+  },
+  {
+    "word": "Entrench",
+    "meaning": "to establish firmly",
+    "example": "Habits can entrench quickly."
+  },
+  {
+    "word": "Enumerate",
+    "meaning": "to list items one by one",
+    "example": "She enumerated the reasons."
+  },
+  {
+    "word": "Enunciate",
+    "meaning": "to pronounce clearly",
+    "example": "Please enunciate your words."
+  },
+  {
+    "word": "Epitome",
+    "meaning": "a perfect example",
+    "example": "She is the epitome of grace."
+  },
+  {
+    "word": "Equanimity",
+    "meaning": "calmness; composure",
+    "example": "He kept equanimity under stress."
+  },
+  {
+    "word": "Equitable",
+    "meaning": "fair and impartial",
+    "example": "We want an equitable solution."
+  },
+  {
+    "word": "Equivocal",
+    "meaning": "ambiguous; open to more than one view",
+    "example": "He gave an equivocal reply."
+  },
+  {
+    "word": "Eradicate",
+    "meaning": "to eliminate completely",
+    "example": "We aim to eradicate littering."
+  },
+  {
+    "word": "Erratic",
+    "meaning": "Unpredictable",
+    "example": "Her behavior was erratic."
+  },
+  {
+    "word": "Erroneous",
+    "meaning": "Wrong, mistaken",
+    "example": "He made an erroneous assumption."
+  },
+  {
+    "word": "Eschew",
+    "meaning": "to avoid or shun",
+    "example": "He eschews sugary drinks."
+  },
+  {
+    "word": "Esteem",
+    "meaning": "respect and admiration",
+    "example": "She is held in high esteem."
+  },
+  {
+    "word": "Ethereal",
+    "meaning": "light; delicate; heavenly",
+    "example": "An ethereal glow filled the sky."
+  },
+  {
+    "word": "Euphemism",
+    "meaning": "Polite word for harsh idea",
+    "example": "He used 'passed away' as a euphemism."
+  },
+  {
+    "word": "Euphoria",
+    "meaning": "feeling of great happiness",
+    "example": "The victory brought euphoria."
+  },
+  {
+    "word": "Evade",
+    "meaning": "to avoid or escape",
+    "example": "He tried to evade the question."
+  },
+  {
+    "word": "Evaluate",
+    "meaning": "Assess",
+    "example": "The teacher evaluated the essay."
+  },
+  {
+    "word": "Evanescent",
+    "meaning": "quickly fading",
+    "example": "Evanescent fog lifted."
+  },
+  {
+    "word": "Evoke",
+    "meaning": "to bring to mind",
+    "example": "The song evokes memories."
+  },
+  {
+    "word": "Exacerbate",
+    "meaning": "Make worse",
+    "example": "His rude comments exacerbated the problem."
+  },
+  {
+    "word": "Exalt",
+    "meaning": "to praise highly",
+    "example": "Fans exalt their heroes."
+  },
+  {
+    "word": "Exasperate",
+    "meaning": "to greatly annoy",
+    "example": "The delay began to exasperate us."
+  },
+  {
+    "word": "Exceed",
+    "meaning": "to go beyond a limit",
+    "example": "Do not exceed the speed limit."
+  },
+  {
+    "word": "Excel",
+    "meaning": "to be very good at",
+    "example": "She excels in physics."
+  },
+  {
+    "word": "Exemplify",
+    "meaning": "Serve as example",
+    "example": "Her work exemplifies dedication."
+  },
+  {
+    "word": "Exhilarate",
+    "meaning": "to make very happy",
+    "example": "The ride exhilarated us."
+  },
+  {
+    "word": "Exhilarating",
+    "meaning": "Exciting",
+    "example": "The ride was exhilarating."
+  },
+  {
+    "word": "Exonerate",
+    "meaning": "to free from blame",
+    "example": "The new evidence exonerated him."
+  },
+  {
+    "word": "Exorbitant",
+    "meaning": "unreasonably high",
+    "example": "The fee seemed exorbitant."
+  },
+  {
+    "word": "Expedite",
+    "meaning": "to speed up",
+    "example": "We will expedite shipping."
+  },
+  {
+    "word": "Explicit",
+    "meaning": "Clearly stated",
+    "example": "The rules were explicit."
+  },
+  {
+    "word": "Exploit",
+    "meaning": "to take advantage of; a bold deed",
+    "example": "Don’t exploit your friends’ kindness."
+  },
+  {
+    "word": "Expound",
+    "meaning": "Explain in detail",
+    "example": "He expounded his views on education."
+  },
+  {
+    "word": "Extol",
+    "meaning": "to praise enthusiastically",
+    "example": "They extol the team's effort."
+  },
+  {
+    "word": "Extraneous",
+    "meaning": "irrelevant; unnecessary",
+    "example": "Cut extraneous words."
+  },
+  {
+    "word": "Extricate",
+    "meaning": "to free from difficulty",
+    "example": "Firefighters extricated the driver."
+  },
+  {
+    "word": "Exuberant",
+    "meaning": "Joyful, enthusiastic",
+    "example": "The children were exuberant at the party."
+  },
+  {
+    "word": "Facetious",
+    "meaning": "treating serious issues with humor",
+    "example": "He made a facetious remark."
+  },
+  {
+    "word": "Facilitate",
+    "meaning": "Make easier",
+    "example": "The app facilitates learning."
+  },
+  {
+    "word": "Fallacy",
+    "meaning": "false belief or error in reasoning",
+    "example": "The claim was a fallacy."
+  },
+  {
+    "word": "Fallow",
+    "meaning": "unused; inactive",
+    "example": "A fallow field rested."
+  },
+  {
+    "word": "Fastidious",
+    "meaning": "Hard to please; meticulous",
+    "example": "He was fastidious about cleanliness."
+  },
+  {
+    "word": "Fathom",
+    "meaning": "to understand deeply",
+    "example": "I can’t fathom that choice."
+  },
+  {
+    "word": "Fatuous",
+    "meaning": "silly and pointless",
+    "example": "A fatuous comment derailed the talk."
+  },
+  {
+    "word": "Feasible",
+    "meaning": "Possible, practical",
+    "example": "The project seems feasible."
+  },
+  {
+    "word": "Feign",
+    "meaning": "to pretend or fake",
+    "example": "He feigned surprise."
+  },
+  {
+    "word": "Fervent",
+    "meaning": "very enthusiastic",
+    "example": "A fervent plea moved the room."
+  },
+  {
+    "word": "Fickle",
+    "meaning": "changing often",
+    "example": "Fickle fans left early."
+  },
+  {
+    "word": "Fidelity",
+    "meaning": "faithfulness; loyalty",
+    "example": "The dog showed great fidelity."
+  },
+  {
+    "word": "Flagrant",
+    "meaning": "shocking and obvious",
+    "example": "That was a flagrant foul."
+  },
+  {
+    "word": "Flippant",
+    "meaning": "disrespectfully casual",
+    "example": "His flippant tone annoyed us."
+  },
+  {
+    "word": "Flourish",
+    "meaning": "to grow well; prosper",
+    "example": "Wildflowers flourish in sun."
+  },
+  {
+    "word": "Fluctuate",
+    "meaning": "to change up and down",
+    "example": "Prices fluctuate daily."
+  },
+  {
+    "word": "Forlorn",
+    "meaning": "pitifully sad; abandoned",
+    "example": "A forlorn house stood alone."
+  },
+  {
+    "word": "Formidable",
+    "meaning": "inspiring fear or respect",
+    "example": "A formidable opponent arrived."
+  },
+  {
+    "word": "Fortitude",
+    "meaning": "courage in pain or adversity",
+    "example": "She faced illness with fortitude."
+  },
+  {
+    "word": "Fortuitous",
+    "meaning": "happening by chance",
+    "example": "A fortuitous meeting led to a job."
+  },
+  {
+    "word": "Foster",
+    "meaning": "Encourage or promote",
+    "example": "Teachers foster creativity."
+  },
+  {
+    "word": "Frivolous",
+    "meaning": "Not serious",
+    "example": "The lawsuit was frivolous."
+  },
+  {
+    "word": "Frugal",
+    "meaning": "Economical, careful with money",
+    "example": "He lived a frugal lifestyle."
+  },
+  {
+    "word": "Furtive",
+    "meaning": "secretive; stealthy",
+    "example": "A furtive glance passed."
+  },
+  {
+    "word": "Futile",
+    "meaning": "useless; not effective",
+    "example": "Further attempts were futile."
+  },
+  {
+    "word": "Gainsay",
+    "meaning": "to deny or contradict",
+    "example": "No one could gainsay the facts."
+  },
+  {
+    "word": "Garrulous",
+    "meaning": "excessively talkative",
+    "example": "A garrulous host told stories."
+  },
+  {
+    "word": "Generalize",
+    "meaning": "Make broad conclusions",
+    "example": "He generalized from one example."
+  },
+  {
+    "word": "Genial",
+    "meaning": "friendly and cheerful",
+    "example": "A genial guide led us."
+  },
+  {
+    "word": "Germane",
+    "meaning": "relevant to the topic",
+    "example": "Ask germane questions."
+  },
+  {
+    "word": "Glutton",
+    "meaning": "one who eats too much",
+    "example": "He’s a glutton for snacks."
+  },
+  {
+    "word": "Gracious",
+    "meaning": "polite and kind",
+    "example": "A gracious note arrived."
+  },
+  {
+    "word": "Gratify",
+    "meaning": "to please or satisfy",
+    "example": "Winning gratified the team."
+  },
+  {
+    "word": "Grim",
+    "meaning": "Serious, bleak",
+    "example": "The outlook was grim."
+  },
+  {
+    "word": "Guile",
+    "meaning": "slyness; trickery",
+    "example": "He used guile to escape."
+  },
+  {
+    "word": "Gullible",
+    "meaning": "easily fooled",
+    "example": "Don’t be gullible online."
+  },
+  {
+    "word": "Hackneyed",
+    "meaning": "overused; trite",
+    "example": "That phrase is hackneyed."
+  },
+  {
+    "word": "Hamper",
+    "meaning": "Hinder or obstruct",
+    "example": "Heavy rain hampered the rescue."
+  },
+  {
+    "word": "Harbinger",
+    "meaning": "a sign of things to come",
+    "example": "Robins are harbingers of spring."
+  },
+  {
+    "word": "Haughty",
+    "meaning": "arrogant and proud",
+    "example": "The haughty actor ignored fans."
+  },
+  {
+    "word": "Heed",
+    "meaning": "to pay attention to",
+    "example": "Heed warning signs."
+  },
+  {
+    "word": "Heinous",
+    "meaning": "shockingly evil",
+    "example": "A heinous crime shocked the town."
+  },
+  {
+    "word": "Heresy",
+    "meaning": "Belief against tradition",
+    "example": "Her views were considered heresy."
+  },
+  {
+    "word": "Hinder",
+    "meaning": "Make difficult",
+    "example": "Fatigue hindered progress."
+  },
+  {
+    "word": "Hostile",
+    "meaning": "Unfriendly, aggressive",
+    "example": "The crowd turned hostile."
+  },
+  {
+    "word": "Hypothesize",
+    "meaning": "Propose an explanation",
+    "example": "She hypothesized that sleep aids memory."
+  },
+  {
+    "word": "Iconoclast",
+    "meaning": "a person who attacks beliefs",
+    "example": "An iconoclast challenges tradition."
+  },
+  {
+    "word": "Idealistic",
+    "meaning": "Guided by ideals",
+    "example": "He was too idealistic to compromise."
+  },
+  {
+    "word": "Idiosyncrasy",
+    "meaning": "a peculiar trait",
+    "example": "That habit is an idiosyncrasy."
+  },
+  {
+    "word": "Ignoble",
+    "meaning": "not honorable in character",
+    "example": "An ignoble act ruined trust."
+  },
+  {
+    "word": "Ignominious",
+    "meaning": "deserving shame",
+    "example": "An ignominious defeat hurt morale."
+  },
+  {
+    "word": "Illicit",
+    "meaning": "Illegal",
+    "example": "They were caught with illicit goods."
+  },
+  {
+    "word": "Illusory",
+    "meaning": "based on illusion; not real",
+    "example": "Illusory gains vanished."
+  },
+  {
+    "word": "Immaculate",
+    "meaning": "perfectly clean",
+    "example": "An immaculate kitchen shone."
+  },
+  {
+    "word": "Imminent",
+    "meaning": "About to happen",
+    "example": "A storm is imminent."
+  },
+  {
+    "word": "Impartial",
+    "meaning": "Neutral, unbiased",
+    "example": "The judge was impartial."
+  },
+  {
+    "word": "Impeccable",
+    "meaning": "Perfect, flawless",
+    "example": "Her manners were impeccable."
+  },
+  {
+    "word": "Impede",
+    "meaning": "Block or delay",
+    "example": "Traffic impeded their arrival."
+  },
+  {
+    "word": "Imperative",
+    "meaning": "Absolutely necessary",
+    "example": "It is imperative to act now."
+  },
+  {
+    "word": "Impetuous",
+    "meaning": "acting without thinking",
+    "example": "An impetuous choice led to trouble."
+  },
+  {
+    "word": "Implacable",
+    "meaning": "unable to be calmed",
+    "example": "An implacable foe pursued."
+  },
+  {
+    "word": "Implicit",
+    "meaning": "implied but not stated",
+    "example": "There was implicit trust."
+  },
+  {
+    "word": "Imply",
+    "meaning": "Suggest without stating",
+    "example": "Her silence implied agreement."
+  },
+  {
+    "word": "Impose",
+    "meaning": "Force something",
+    "example": "The law imposed restrictions."
+  },
+  {
+    "word": "Inane",
+    "meaning": "silly; lacking sense",
+    "example": "An inane comment wasted time."
+  },
+  {
+    "word": "Incentive",
+    "meaning": "Motivation to act",
+    "example": "The bonus was an incentive."
+  },
+  {
+    "word": "Incessant",
+    "meaning": "never stopping",
+    "example": "Incessant noise bothered neighbors."
+  },
+  {
+    "word": "Incisive",
+    "meaning": "Clear, sharp",
+    "example": "He gave incisive comments."
+  },
+  {
+    "word": "Incompetent",
+    "meaning": "Not capable",
+    "example": "The worker was incompetent."
+  },
+  {
+    "word": "Incongruous",
+    "meaning": "not in harmony",
+    "example": "His tie was incongruous."
+  },
+  {
+    "word": "Incredulous",
+    "meaning": "unwilling to believe",
+    "example": "She looked incredulous."
+  },
+  {
+    "word": "Indelible",
+    "meaning": "impossible to remove",
+    "example": "An indelible memory stayed."
+  },
+  {
+    "word": "Indifferent",
+    "meaning": "Not caring",
+    "example": "She was indifferent to the criticism."
+  },
+  {
+    "word": "Indigenous",
+    "meaning": "Native to an area",
+    "example": "The plant is indigenous to Brazil."
+  },
+  {
+    "word": "Indignant",
+    "meaning": "Angry at unfairness",
+    "example": "She was indignant at the insult."
+  },
+  {
+    "word": "Indolent",
+    "meaning": "lazy; inactive",
+    "example": "An indolent day passed slowly."
+  },
+  {
+    "word": "Ineffable",
+    "meaning": "too great to be described",
+    "example": "Ineffable beauty filled the view."
+  },
+  {
+    "word": "Inevitable",
+    "meaning": "Certain to happen",
+    "example": "Change is inevitable."
+  },
+  {
+    "word": "Inexorable",
+    "meaning": "impossible to stop",
+    "example": "Inexorable change continued."
+  },
+  {
+    "word": "Infallible",
+    "meaning": "incapable of being wrong",
+    "example": "No one is infallible."
+  },
+  {
+    "word": "Infer",
+    "meaning": "Conclude from evidence",
+    "example": "We can infer the meaning from context."
+  },
+  {
+    "word": "Inferior",
+    "meaning": "Lower in quality",
+    "example": "The product was inferior to others."
+  },
+  {
+    "word": "Ingenuous",
+    "meaning": "innocent; naive",
+    "example": "An ingenuous smile charmed us."
+  },
+  {
+    "word": "Inherent",
+    "meaning": "Existing naturally",
+    "example": "Risk is inherent in the sport."
+  },
+  {
+    "word": "Inhibit",
+    "meaning": "Hold back",
+    "example": "Shyness inhibited his speech."
+  },
+  {
+    "word": "Innate",
+    "meaning": "natural; inborn",
+    "example": "Innate talent showed early."
+  },
+  {
+    "word": "Innovate",
+    "meaning": "Introduce new ideas",
+    "example": "The company must innovate to survive."
+  },
+  {
+    "word": "Innovative",
+    "meaning": "Creative, new",
+    "example": "She developed an innovative design."
+  },
+  {
+    "word": "Insidious",
+    "meaning": "working in a hidden way",
+    "example": "An insidious disease spread."
+  },
+  {
+    "word": "Insipid",
+    "meaning": "dull; lacking flavor",
+    "example": "Insipid soup disappointed."
+  },
+  {
+    "word": "Interpret",
+    "meaning": "Explain meaning",
+    "example": "He interpreted the poem differently."
+  },
+  {
+    "word": "Intervene",
+    "meaning": "Get involved",
+    "example": "The teacher intervened in the fight."
+  },
+  {
+    "word": "Intransigent",
+    "meaning": "Unwilling to change",
+    "example": "The negotiators were intransigent."
+  },
+  {
+    "word": "Intrepid",
+    "meaning": "brave and fearless",
+    "example": "An intrepid diver explored."
+  },
+  {
+    "word": "Intrinsic",
+    "meaning": "Essential, belonging naturally",
+    "example": "Freedom is intrinsic to democracy."
+  },
+  {
+    "word": "Inundate",
+    "meaning": "to flood; overwhelm",
+    "example": "Emails inundated the inbox."
+  },
+  {
+    "word": "Invalidate",
+    "meaning": "Prove to be false",
+    "example": "New data invalidated the old hypothesis."
+  },
+  {
+    "word": "Irascible",
+    "meaning": "Easily angered",
+    "example": "He was irascible under stress."
+  },
+  {
+    "word": "Ire",
+    "meaning": "anger",
+    "example": "His rude comment drew ire."
+  },
+  {
+    "word": "Jocular",
+    "meaning": "fond of joking",
+    "example": "A jocular host kept laughs coming."
+  },
+  {
+    "word": "Judicious",
+    "meaning": "Showing good judgment",
+    "example": "He made a judicious investment."
+  },
+  {
+    "word": "Juxtapose",
+    "meaning": "to place side by side for contrast",
+    "example": "The photo juxtaposed light and dark."
+  },
+  {
+    "word": "Keen",
+    "meaning": "sharp or eager",
+    "example": "A keen mind solved puzzles."
+  },
+  {
+    "word": "Lament",
+    "meaning": "Express sorrow",
+    "example": "They lamented the loss."
+  },
+  {
+    "word": "Languid",
+    "meaning": "slow; lacking energy",
+    "example": "A languid breeze blew."
+  },
+  {
+    "word": "Latent",
+    "meaning": "hidden; not yet developed",
+    "example": "Latent skills emerged."
+  },
+  {
+    "word": "Laud",
+    "meaning": "to praise highly",
+    "example": "They laud the firefighters."
+  },
+  {
+    "word": "Lavish",
+    "meaning": "Luxurious",
+    "example": "The banquet was lavish."
+  },
+  {
+    "word": "Legacy",
+    "meaning": "something handed down",
+    "example": "Education is a legacy."
+  },
+  {
+    "word": "Legislate",
+    "meaning": "Make laws",
+    "example": "The government legislated new reforms."
+  },
+  {
+    "word": "Legitimate",
+    "meaning": "Lawful, valid",
+    "example": "They questioned the legitimate ruler."
+  },
+  {
+    "word": "Lethargic",
+    "meaning": "sluggish; lacking energy",
+    "example": "He felt lethargic at noon."
+  },
+  {
+    "word": "Levity",
+    "meaning": "humor; lack of seriousness",
+    "example": "A touch of levity helped."
+  },
+  {
+    "word": "Longevity",
+    "meaning": "Long life",
+    "example": "The product’s longevity impressed buyers."
+  },
+  {
+    "word": "Loquacious",
+    "meaning": "very talkative",
+    "example": "A loquacious speaker told stories."
+  },
+  {
+    "word": "Lucid",
+    "meaning": "Clear, easy to understand",
+    "example": "Her explanation was lucid."
+  },
+  {
+    "word": "Lucrative",
+    "meaning": "Profitable",
+    "example": "It was a lucrative business."
+  },
+  {
+    "word": "Ludicrous",
+    "meaning": "ridiculous; absurd",
+    "example": "The rumor was ludicrous."
+  },
+  {
+    "word": "Luminous",
+    "meaning": "bright; glowing",
+    "example": "A luminous moon rose."
+  },
+  {
+    "word": "Magnanimous",
+    "meaning": "generous to a rival",
+    "example": "A magnanimous winner smiled."
+  },
+  {
+    "word": "Maintain",
+    "meaning": "Continue or assert",
+    "example": "She maintained her innocence."
+  },
+  {
+    "word": "Malevolent",
+    "meaning": "Evil, harmful",
+    "example": "The villain had malevolent intentions."
+  },
+  {
+    "word": "Malign",
+    "meaning": "to speak badly of",
+    "example": "Don’t malign your peers."
+  },
+  {
+    "word": "Malleable",
+    "meaning": "Easily shaped or influenced",
+    "example": "Gold is malleable."
+  },
+  {
+    "word": "Marginal",
+    "meaning": "Small, insignificant",
+    "example": "He made only a marginal improvement."
+  },
+  {
+    "word": "Maverick",
+    "meaning": "an independent-minded person",
+    "example": "A maverick thinker challenged norms."
+  },
+  {
+    "word": "Meander",
+    "meaning": "to wander aimlessly",
+    "example": "We meandered through the park."
+  },
+  {
+    "word": "Mediocre",
+    "meaning": "Average, ordinary",
+    "example": "The film was mediocre at best."
+  },
+  {
+    "word": "Melancholy",
+    "meaning": "Sadness",
+    "example": "She felt a deep melancholy."
+  },
+  {
+    "word": "Meticulous",
+    "meaning": "Very careful",
+    "example": "She kept meticulous records."
+  },
+  {
+    "word": "Militant",
+    "meaning": "Aggressive in support",
+    "example": "The group was militant in their cause."
+  },
+  {
+    "word": "Misanthrope",
+    "meaning": "a person who dislikes others",
+    "example": "A misanthrope avoided crowds."
+  },
+  {
+    "word": "Mitigate",
+    "meaning": "Make less severe",
+    "example": "Laws were passed to mitigate pollution."
+  },
+  {
+    "word": "Modicum",
+    "meaning": "a small amount",
+    "example": "A modicum of luck helps."
+  },
+  {
+    "word": "Mollify",
+    "meaning": "to calm or soften",
+    "example": "He tried to mollify the crowd."
+  },
+  {
+    "word": "Morbid",
+    "meaning": "gruesome; related to death",
+    "example": "A morbid tale scared us."
+  },
+  {
+    "word": "Morose",
+    "meaning": "Sullen, gloomy",
+    "example": "He was morose after the defeat."
+  },
+  {
+    "word": "Mundane",
+    "meaning": "Ordinary, dull",
+    "example": "He avoided mundane chores."
+  },
+  {
+    "word": "Myriad",
+    "meaning": "Countless, many",
+    "example": "They faced a myriad of problems."
+  },
+  {
+    "word": "Nefarious",
+    "meaning": "wicked or criminal",
+    "example": "A nefarious scheme failed."
+  },
+  {
+    "word": "Negligent",
+    "meaning": "careless; failing proper care",
+    "example": "A negligent driver swerved."
+  },
+  {
+    "word": "Negligible",
+    "meaning": "So small it's unimportant",
+    "example": "The cost was negligible."
+  },
+  {
+    "word": "Nonchalant",
+    "meaning": "calm and relaxed",
+    "example": "She remained nonchalant."
+  },
+  {
+    "word": "Nostalgia",
+    "meaning": "longing for the past",
+    "example": "Old songs brought nostalgia."
+  },
+  {
+    "word": "Nostalgic",
+    "meaning": "Longing for the past",
+    "example": "She felt nostalgic about childhood."
+  },
+  {
+    "word": "Notorious",
+    "meaning": "Famous for something bad",
+    "example": "The area is notorious for crime."
+  },
+  {
+    "word": "Novel",
+    "meaning": "New, original",
+    "example": "The engineer proposed a novel solution."
+  },
+  {
+    "word": "Novice",
+    "meaning": "a beginner",
+    "example": "A novice coder learned quickly."
+  },
+  {
+    "word": "Noxious",
+    "meaning": "harmful; poisonous",
+    "example": "Noxious fumes seeped out."
+  },
+  {
+    "word": "Obdurate",
+    "meaning": "stubborn; unyielding",
+    "example": "An obdurate stance blocked talks."
+  },
+  {
+    "word": "Obfuscate",
+    "meaning": "to make unclear",
+    "example": "Jargon can obfuscate ideas."
+  },
+  {
+    "word": "Oblivious",
+    "meaning": "Unaware",
+    "example": "He was oblivious to the noise."
+  },
+  {
+    "word": "Obscure",
+    "meaning": "unclear; hidden",
+    "example": "An obscure rule applied."
+  },
+  {
+    "word": "Obsequious",
+    "meaning": "overly flattering or obedient",
+    "example": "An obsequious servant bowed."
+  },
+  {
+    "word": "Obsolete",
+    "meaning": "Outdated",
+    "example": "That technology is obsolete."
+  },
+  {
+    "word": "Obstinate",
+    "meaning": "very stubborn",
+    "example": "An obstinate mule balked."
+  },
+  {
+    "word": "Ominous",
+    "meaning": "threatening; suggesting bad",
+    "example": "Ominous clouds gathered."
+  },
+  {
+    "word": "Omnipresent",
+    "meaning": "Everywhere",
+    "example": "The CEO’s influence was omnipresent."
+  },
+  {
+    "word": "Opaque",
+    "meaning": "Not transparent; unclear",
+    "example": "The instructions were opaque."
+  },
+  {
+    "word": "Optimistic",
+    "meaning": "Hopeful",
+    "example": "She was optimistic about the future."
+  },
+  {
+    "word": "Orthodox",
+    "meaning": "Traditional, conventional",
+    "example": "He followed orthodox practices."
+  },
+  {
+    "word": "Ostentatious",
+    "meaning": "showy; trying to impress",
+    "example": "An ostentatious car gleamed."
+  },
+  {
+    "word": "Overt",
+    "meaning": "Open and obvious",
+    "example": "He showed overt hostility."
+  },
+  {
+    "word": "Pacify",
+    "meaning": "to calm or soothe",
+    "example": "Music pacified the baby."
+  },
+  {
+    "word": "Painstaking",
+    "meaning": "done with great care",
+    "example": "Painstaking work paid off."
+  },
+  {
+    "word": "Palatable",
+    "meaning": "pleasant to taste",
+    "example": "A palatable soup simmered."
+  },
+  {
+    "word": "Paradigm",
+    "meaning": "Model or example",
+    "example": "This theory created a new paradigm."
+  },
+  {
+    "word": "Paragon",
+    "meaning": "a perfect example",
+    "example": "She is a paragon of kindness."
+  },
+  {
+    "word": "Pariah",
+    "meaning": "an outcast",
+    "example": "He felt like a pariah."
+  },
+  {
+    "word": "Parsimonious",
+    "meaning": "very frugal; stingy",
+    "example": "A parsimonious host skimped."
+  },
+  {
+    "word": "Partisan",
+    "meaning": "Strong supporter; biased",
+    "example": "The debate turned partisan."
+  },
+  {
+    "word": "Paucity",
+    "meaning": "scarcity; small amount",
+    "example": "A paucity of data remained."
+  },
+  {
+    "word": "Pejorative",
+    "meaning": "expressing disapproval",
+    "example": "A pejorative remark stung."
+  },
+  {
+    "word": "Pensive",
+    "meaning": "deeply thoughtful",
+    "example": "A pensive look lingered."
+  },
+  {
+    "word": "Perceptive",
+    "meaning": "having keen understanding",
+    "example": "A perceptive comment helped."
+  },
+  {
+    "word": "Perfunctory",
+    "meaning": "done without interest or effort",
+    "example": "A perfunctory nod followed."
+  },
+  {
+    "word": "Perilous",
+    "meaning": "dangerous; risky",
+    "example": "A perilous journey began."
+  },
+  {
+    "word": "Permeate",
+    "meaning": "to spread through",
+    "example": "A smell permeated the hall."
+  },
+  {
+    "word": "Pernicious",
+    "meaning": "very harmful",
+    "example": "Pernicious weeds spread fast."
+  },
+  {
+    "word": "Persevere",
+    "meaning": "Continue despite difficulty",
+    "example": "He persevered through challenges."
+  },
+  {
+    "word": "Persistent",
+    "meaning": "continuing firmly; not giving up",
+    "example": "Her persistent effort won."
+  },
+  {
+    "word": "Pertinent",
+    "meaning": "Relevant",
+    "example": "She asked pertinent questions."
+  },
+  {
+    "word": "Pervasive",
+    "meaning": "Spreading widely",
+    "example": "Technology is pervasive in society."
+  },
+  {
+    "word": "Pessimistic",
+    "meaning": "Expecting the worst",
+    "example": "He was pessimistic about the results."
+  },
+  {
+    "word": "Petulant",
+    "meaning": "childishly sulky",
+    "example": "A petulant complaint arose."
+  },
+  {
+    "word": "Phlegmatic",
+    "meaning": "calm; unemotional",
+    "example": "A phlegmatic response followed."
+  },
+  {
+    "word": "Placate",
+    "meaning": "to calm someone down",
+    "example": "He placated the angry customer."
+  },
+  {
+    "word": "Placid",
+    "meaning": "calm and peaceful",
+    "example": "A placid lake reflected sky."
+  },
+  {
+    "word": "Plausible",
+    "meaning": "Believable",
+    "example": "It is a plausible explanation."
+  },
+  {
+    "word": "Plight",
+    "meaning": "a difficult situation",
+    "example": "We discussed their plight."
+  },
+  {"word": "Quaint", "meaning": "charmingly old-fashioned", "example": "The quaint village was full of cobblestone streets."},
+  {"word": "Quell", "meaning": "to put an end to; to calm", "example": "The teacher tried to quell the noisy class."},
+  {"word": "Querulous", "meaning": "complaining in a whining manner", "example": "The querulous customer demanded a refund."},
+  {"word": "Quibble", "meaning": "to argue over small details", "example": "They quibbled about the cost of the meal."},
+  {"word": "Quixotic", "meaning": "exceedingly idealistic; unrealistic", "example": "His quixotic plan to end world hunger in a year was unrealistic."},
+  {"word": "Quotidian", "meaning": "occurring daily; commonplace", "example": "Checking emails had become a quotidian habit."},
+  {"word": "Rancor", "meaning": "long-standing bitterness or resentment", "example": "Years of rancor existed between the two families."},
+  {"word": "Rationale", "meaning": "the underlying reason or explanation", "example": "She explained the rationale behind her decision."},
+  {"word": "Raucous", "meaning": "loud and harsh", "example": "The raucous laughter could be heard down the hall."},
+  {"word": "Rebuke", "meaning": "to scold or criticize sharply", "example": "The manager rebuked the team for missing the deadline."},
+  {"word": "Recalcitrant", "meaning": "stubbornly resistant to authority", "example": "The recalcitrant student refused to follow the rules."},
+  {"word": "Recant", "meaning": "to withdraw a statement", "example": "He recanted his earlier confession."},
+  {"word": "Reclusive", "meaning": "avoiding the company of others", "example": "The author lived a reclusive life in the mountains."},
+  {"word": "Reconcile", "meaning": "to restore friendly relations", "example": "They managed to reconcile after the argument."},
+  {"word": "Rectify", "meaning": "to correct or make right", "example": "The accountant rectified the error in the books."},
+  {"word": "Redundant", "meaning": "unnecessarily repetitive", "example": "The essay was full of redundant words."},
+  {"word": "Refute", "meaning": "to prove wrong", "example": "The lawyer refuted the witness’s claims."},
+  {"word": "Reiterate", "meaning": "to say again for emphasis", "example": "She reiterated her warning to be careful."},
+  {"word": "Rejuvenate", "meaning": "to make young or energetic again", "example": "A vacation helped rejuvenate him."},
+  {"word": "Relinquish", "meaning": "to give up voluntarily", "example": "He relinquished control of the company."},
+  {"word": "Remorse", "meaning": "deep regret or guilt", "example": "She felt remorse after lying to her friend."},
+  {"word": "Renowned", "meaning": "famous and well respected", "example": "The renowned scientist gave a lecture."},
+  {"word": "Reproach", "meaning": "to express disapproval", "example": "She reproached him for being late."},
+  {"word": "Resilient", "meaning": "able to recover quickly", "example": "Children are resilient after setbacks."},
+  {"word": "Resolute", "meaning": "determined and unwavering", "example": "She was resolute in her pursuit of justice."},
+  {"word": "Resonate", "meaning": "to have an emotional impact; echo", "example": "His words resonated with the audience."},
+  {"word": "Respite", "meaning": "a short break or relief", "example": "The weekend was a welcome respite from work."},
+  {"word": "Reticent", "meaning": "reserved; not willing to share thoughts", "example": "He was reticent about discussing his past."},
+  {"word": "Revere", "meaning": "to deeply respect", "example": "Students revere their wise teacher."},
+  {"word": "Revile", "meaning": "to attack with abusive words", "example": "The candidate was reviled in the press."},
+  {"word": "Rhetoric", "meaning": "effective or persuasive speaking/writing", "example": "The politician’s rhetoric swayed the voters."},
+  {"word": "Robust", "meaning": "strong and healthy", "example": "The robust system handled the traffic easily."},
+  {"word": "Sagacious", "meaning": "wise; showing good judgment", "example": "The sagacious leader guided the team wisely."},
+  {"word": "Salient", "meaning": "most noticeable or important", "example": "He summarized the salient points of the report."},
+  {"word": "Sanguine", "meaning": "optimistic in a difficult situation", "example": "She remained sanguine despite the challenges."},
+  {"word": "Scrutinize", "meaning": "to examine closely", "example": "The teacher scrutinized the essay for errors."},
+  {"word": "Sedentary", "meaning": "involving little movement", "example": "A sedentary lifestyle can harm health."},
+  {"word": "Serene", "meaning": "calm and peaceful", "example": "The serene lake reflected the mountains."},
+  {"word": "Shrewd", "meaning": "clever; having sharp judgment", "example": "She made a shrewd investment."},
+  {"word": "Skeptical", "meaning": "doubting; not easily convinced", "example": "He was skeptical of the salesman’s claims."},
+  {"word": "Solace", "meaning": "comfort in sorrow", "example": "Music provided solace during tough times."},
+  {"word": "Somber", "meaning": "gloomy and serious", "example": "The somber mood filled the room."},
+  {"word": "Sporadic", "meaning": "happening occasionally; irregular", "example": "Sporadic rain showers interrupted the picnic."},
+  {"word": "Spurious", "meaning": "false; not genuine", "example": "The evidence was spurious and inadmissible."},
+  {"word": "Stagnant", "meaning": "not moving; inactive", "example": "The stagnant pond bred mosquitoes."},
+  {"word": "Stalwart", "meaning": "loyal and dependable", "example": "He was a stalwart supporter of the cause."},
+  {"word": "Static", "meaning": "unchanging; still", "example": "Her opinion remained static over the years."},
+  {"word": "Stealthy", "meaning": "sneaky; secretive", "example": "The stealthy cat crept toward the bird."},
+  {"word": "Stifle", "meaning": "to suppress or hold back", "example": "She tried to stifle a laugh."},
+  {"word": "Stringent", "meaning": "strict; precise", "example": "The school has stringent rules on attendance."},
+  {"word": "Stymie", "meaning": "to block or hinder progress", "example": "Budget cuts may stymie the project."},
+  {"word": "Subdued", "meaning": "quiet; restrained", "example": "His voice was subdued after the defeat."},
+  {"word": "Substantiate", "meaning": "to support with evidence", "example": "The witness substantiated her claims."},
+  {"word": "Succinct", "meaning": "brief and clear", "example": "Her explanation was succinct and effective."},
+  {"word": "Superfluous", "meaning": "unnecessary; extra", "example": "The report included superfluous details."},
+  {"word": "Surmise", "meaning": "to guess without certain evidence", "example": "From her smile, he surmised she was happy."},
+  {"word": "Surreptitious", "meaning": "kept secret; stealthy", "example": "They held surreptitious meetings at night."},
+  {"word": "Tactful", "meaning": "showing sensitivity in dealing with others", "example": "He was tactful in handling criticism."},
+  {"word": "Tangible", "meaning": "able to be touched; real", "example": "The trophy was a tangible reward for success."},
+  {"word": "Tantamount", "meaning": "equivalent in effect", "example": "Her refusal was tantamount to a rejection."},
+  {"word": "Tepid", "meaning": "lukewarm; lacking enthusiasm", "example": "His tepid response disappointed her."},
+  {"word": "Tenacious", "meaning": "persistent; not easily giving up", "example": "She was tenacious in pursuing her goal."},
+  {"word": "Terse", "meaning": "brief and to the point", "example": "His terse reply ended the conversation."},
+  {"word": "Timid", "meaning": "shy and lacking confidence", "example": "The timid child hid behind his mother."},
+  {"word": "Tirade", "meaning": "a long, angry speech", "example": "The manager launched into a tirade about lateness."},
+  {"word": "Torrid", "meaning": "very hot; passionate", "example": "They endured torrid desert conditions."},
+  {"word": "Transient", "meaning": "temporary; short-lived", "example": "Her sadness was transient."},
+  {"word": "Trepidation", "meaning": "fear about something that may happen", "example": "She entered the exam room with trepidation."},
+  {"word": "Trivial", "meaning": "unimportant", "example": "They argued about a trivial detail."},
+  {"word": "Ubiquitous", "meaning": "present everywhere", "example": "Cell phones are ubiquitous nowadays."},
+  {"word": "Unanimous", "meaning": "fully in agreement", "example": "The jury reached a unanimous verdict."},
+  {"word": "Uncanny", "meaning": "strangely unusual; beyond normal", "example": "He had an uncanny ability to guess outcomes."},
+  {"word": "Undermine", "meaning": "to weaken gradually", "example": "Rumors can undermine trust."},
+  {"word": "Unequivocal", "meaning": "leaving no doubt; clear", "example": "She gave an unequivocal yes."},
+  {"word": "Uphold", "meaning": "to support or maintain", "example": "Judges must uphold the law."},
+  {"word": "Usurp", "meaning": "to take by force", "example": "The general tried to usurp power."},
+  {"word": "Vacillate", "meaning": "to waver between choices", "example": "He vacillated between law and medicine."},
+  {"word": "Vacuous", "meaning": "empty; lacking intelligence", "example": "The vacuous remark added nothing to the debate."},
+  {"word": "Vague", "meaning": "unclear; not specific", "example": "His directions were vague."},
+  {"word": "Validate", "meaning": "to confirm; prove true", "example": "The study validated the theory."},
+  {"word": "Venerate", "meaning": "to respect or honor deeply", "example": "Scholars venerate the ancient text."},
+  {"word": "Verbose", "meaning": "using too many words", "example": "The essay was verbose and needed editing."},
+  {"word": "Versatile", "meaning": "able to adapt easily", "example": "She is versatile and good at many sports."},
+  {"word": "Viable", "meaning": "capable of working successfully", "example": "The plan is economically viable."},
+  {"word": "Vibrant", "meaning": "full of energy and life", "example": "The vibrant festival filled the streets."},
+  {"word": "Vicious", "meaning": "cruel; violent", "example": "The dog gave a vicious bite."},
+  {"word": "Vindicate", "meaning": "to clear of blame", "example": "The evidence vindicated her claim."},
+  {"word": "Virulent", "meaning": "extremely harmful; poisonous", "example": "A virulent strain of flu spread quickly."},
+  {"word": "Vociferous", "meaning": "loud and forceful", "example": "The vociferous crowd demanded answers."},
+  {"word": "Volatile", "meaning": "likely to change suddenly", "example": "The market is highly volatile."},
+  {"word": "Voracious", "meaning": "having a huge appetite", "example": "He was a voracious reader."},
+  {"word": "Vulnerable", "meaning": "open to harm or attack", "example": "Young animals are vulnerable to predators."},
+  {"word": "Wane", "meaning": "to decrease in size or strength", "example": "Her interest began to wane."},
+  {"word": "Wary", "meaning": "cautious and careful", "example": "He was wary of strangers."},
+  {"word": "Waver", "meaning": "to hesitate or be indecisive", "example": "She wavered before answering."},
+  {"word": "Whimsical", "meaning": "playful; fanciful", "example": "The whimsical drawing made her smile."},
+  {"word": "Wily", "meaning": "crafty and clever", "example": "The wily fox escaped the trap."},
+  {"word": "Withstand", "meaning": "to resist successfully", "example": "The dam can withstand floods."},
+  {"word": "Wry", "meaning": "humorous in a dry way", "example": "He gave a wry smile."},
+  {"word": "Zealous", "meaning": "passionate and enthusiastic", "example": "She was zealous in defending her rights."},
+  {"word": "Zenith", "meaning": "the highest point", "example": "At noon, the sun reaches its zenith."},
+  {"word": "Zephyr", "meaning": "a gentle breeze", "example": "A cool zephyr blew across the field."}
+];let cards = [...allCards];
   let current = 0;
   let showingFront = true;
 
